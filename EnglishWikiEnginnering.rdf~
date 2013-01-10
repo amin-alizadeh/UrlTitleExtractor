@@ -1,0 +1,130 @@
+<http://en.wikipedia.org/wiki/engineering> <http://www.w3.org/2000/01/rdf-schema#label> "engineering"@en .
+<http://en.wikipedia.org/wiki/index_of_engineering_articles> <http://www.w3.org/2000/01/rdf-schema#label> "index of engineering articles"@en .
+<http://en.wikipedia.org/wiki/outline_of_engineering> <http://www.w3.org/2000/01/rdf-schema#label> "outline of engineering"@en .
+<http://en.wikipedia.org/wiki/active_structure> <http://www.w3.org/2000/01/rdf-schema#label> "active structure"@en .
+<http://en.wikipedia.org/wiki/advanced_composite_materials_(science_%26_engineering)> <http://www.w3.org/2000/01/rdf-schema#label> "advanced composite materials (science &amp; engineering)"@en .
+<http://en.wikipedia.org/wiki/amplification_factor> <http://www.w3.org/2000/01/rdf-schema#label> "amplification factor"@en .
+<http://en.wikipedia.org/wiki/applied_engineering_(field)> <http://www.w3.org/2000/01/rdf-schema#label> "applied engineering (field)"@en .
+<http://en.wikipedia.org/wiki/applied_physics> <http://www.w3.org/2000/01/rdf-schema#label> "applied physics"@en .
+<http://en.wikipedia.org/wiki/boundary_friction> <http://www.w3.org/2000/01/rdf-schema#label> "boundary friction"@en .
+<http://en.wikipedia.org/wiki/building_engineering_physics> <http://www.w3.org/2000/01/rdf-schema#label> "building engineering physics"@en .
+<http://en.wikipedia.org/wiki/building_services_engineering> <http://www.w3.org/2000/01/rdf-schema#label> "building services engineering"@en .
+<http://en.wikipedia.org/wiki/compensation_(engineering)> <http://www.w3.org/2000/01/rdf-schema#label> "compensation (engineering)"@en .
+<http://en.wikipedia.org/wiki/computer-integrated_manufacturing> <http://www.w3.org/2000/01/rdf-schema#label> "computer-integrated manufacturing"@en .
+<http://en.wikipedia.org/wiki/contextualization_(computer_science)> <http://www.w3.org/2000/01/rdf-schema#label> "contextualization (computer science)"@en .
+<http://en.wikipedia.org/wiki/corrosion_engineering> <http://www.w3.org/2000/01/rdf-schema#label> "corrosion engineering"@en .
+<http://en.wikipedia.org/wiki/design_choice> <http://www.w3.org/2000/01/rdf-schema#label> "design choice"@en .
+<http://en.wikipedia.org/wiki/design_review> <http://www.w3.org/2000/01/rdf-schema#label> "design review"@en .
+<http://en.wikipedia.org/wiki/design_review_(us_government)> <http://www.w3.org/2000/01/rdf-schema#label> "design review (us government)"@en .
+<http://en.wikipedia.org/wiki/digital_materialization> <http://www.w3.org/2000/01/rdf-schema#label> "digital materialization"@en .
+<http://en.wikipedia.org/wiki/double_subscript_notation> <http://www.w3.org/2000/01/rdf-schema#label> "double subscript notation"@en .
+<http://en.wikipedia.org/wiki/electrical_system_design> <http://www.w3.org/2000/01/rdf-schema#label> "electrical system design"@en .
+<http://en.wikipedia.org/wiki/elegant_degradation> <http://www.w3.org/2000/01/rdf-schema#label> "elegant degradation"@en .
+<http://en.wikipedia.org/wiki/energy_separating_agent> <http://www.w3.org/2000/01/rdf-schema#label> "energy separating agent"@en .
+<http://en.wikipedia.org/wiki/engineer%27s_ring> <http://www.w3.org/2000/01/rdf-schema#label> "engineer's ring"@en .
+<http://en.wikipedia.org/wiki/engineering_analysis> <http://www.w3.org/2000/01/rdf-schema#label> "engineering analysis"@en .
+<http://en.wikipedia.org/wiki/engineering_change_notice> <http://www.w3.org/2000/01/rdf-schema#label> "engineering change notice"@en .
+<http://en.wikipedia.org/wiki/engineering_change_order> <http://www.w3.org/2000/01/rdf-schema#label> "engineering change order"@en .
+<http://en.wikipedia.org/wiki/engineering_design_process> <http://www.w3.org/2000/01/rdf-schema#label> "engineering design process"@en .
+<http://en.wikipedia.org/wiki/engineering_drawing> <http://www.w3.org/2000/01/rdf-schema#label> "engineering drawing"@en .
+<http://en.wikipedia.org/wiki/engineering_drawing_abbreviations_and_symbols> <http://www.w3.org/2000/01/rdf-schema#label> "engineering drawing abbreviations and symbols"@en .
+<http://en.wikipedia.org/wiki/engineering_duty_officer> <http://www.w3.org/2000/01/rdf-schema#label> "engineering duty officer"@en .
+<http://en.wikipedia.org/wiki/engineering_ethics> <http://www.w3.org/2000/01/rdf-schema#label> "engineering ethics"@en .
+<http://en.wikipedia.org/wiki/engineering_research> <http://www.w3.org/2000/01/rdf-schema#label> "engineering research"@en .
+<http://en.wikipedia.org/wiki/engineering_statistics> <http://www.w3.org/2000/01/rdf-schema#label> "engineering statistics"@en .
+<http://en.wikipedia.org/wiki/enhanced_acoustic_simulator_for_engineers> <http://www.w3.org/2000/01/rdf-schema#label> "enhanced acoustic simulator for engineers"@en .
+<http://en.wikipedia.org/wiki/event_chain_diagram> <http://www.w3.org/2000/01/rdf-schema#label> "event chain diagram"@en .
+<http://en.wikipedia.org/wiki/event_chain_methodology> <http://www.w3.org/2000/01/rdf-schema#label> "event chain methodology"@en .
+<http://en.wikipedia.org/wiki/fractography> <http://www.w3.org/2000/01/rdf-schema#label> "fractography"@en .
+<http://en.wikipedia.org/wiki/function_(engineering)> <http://www.w3.org/2000/01/rdf-schema#label> "function (engineering)"@en .
+<http://en.wikipedia.org/wiki/functional_decomposition> <http://www.w3.org/2000/01/rdf-schema#label> "functional decomposition"@en .
+<http://en.wikipedia.org/wiki/gate_(engineering)> <http://www.w3.org/2000/01/rdf-schema#label> "gate (engineering)"@en .
+<http://en.wikipedia.org/wiki/glossary_of_engineering> <http://www.w3.org/2000/01/rdf-schema#label> "glossary of engineering"@en .
+<http://en.wikipedia.org/wiki/good_engineering_practice> <http://www.w3.org/2000/01/rdf-schema#label> "good engineering practice"@en .
+<http://en.wikipedia.org/wiki/grubbing> <http://www.w3.org/2000/01/rdf-schema#label> "grubbing"@en .
+<http://en.wikipedia.org/wiki/hardware_architecture> <http://www.w3.org/2000/01/rdf-schema#label> "hardware architecture"@en .
+<http://en.wikipedia.org/wiki/human_reliability> <http://www.w3.org/2000/01/rdf-schema#label> "human reliability"@en .
+<http://en.wikipedia.org/wiki/humanitarian_engineering> <http://www.w3.org/2000/01/rdf-schema#label> "humanitarian engineering"@en .
+<http://en.wikipedia.org/wiki/hydrostatic_test> <http://www.w3.org/2000/01/rdf-schema#label> "hydrostatic test"@en .
+<http://en.wikipedia.org/wiki/icme_cyberinfrastructure> <http://www.w3.org/2000/01/rdf-schema#label> "icme cyberinfrastructure"@en .
+<http://en.wikipedia.org/wiki/ideal_final_result> <http://www.w3.org/2000/01/rdf-schema#label> "ideal final result"@en .
+<http://en.wikipedia.org/wiki/imagineering> <http://www.w3.org/2000/01/rdf-schema#label> "imagineering"@en .
+<http://en.wikipedia.org/wiki/improvisation> <http://www.w3.org/2000/01/rdf-schema#label> "improvisation"@en .
+<http://en.wikipedia.org/wiki/information_technology_infrastructure> <http://www.w3.org/2000/01/rdf-schema#label> "information technology infrastructure"@en .
+<http://en.wikipedia.org/wiki/integrated_computational_materials_engineering> <http://www.w3.org/2000/01/rdf-schema#label> "integrated computational materials engineering"@en .
+<http://en.wikipedia.org/wiki/interoperation> <http://www.w3.org/2000/01/rdf-schema#label> "interoperation"@en .
+<http://en.wikipedia.org/wiki/labshare> <http://www.w3.org/2000/01/rdf-schema#label> "labshare"@en .
+<http://en.wikipedia.org/wiki/latent_human_error> <http://www.w3.org/2000/01/rdf-schema#label> "latent human error"@en .
+<http://en.wikipedia.org/wiki/laws_of_technical_systems_evolution> <http://www.w3.org/2000/01/rdf-schema#label> "laws of technical systems evolution"@en .
+<http://en.wikipedia.org/wiki/level_of_invention> <http://www.w3.org/2000/01/rdf-schema#label> "level of invention"@en .
+<http://en.wikipedia.org/wiki/macro-engineering> <http://www.w3.org/2000/01/rdf-schema#label> "macro-engineering"@en .
+<http://en.wikipedia.org/wiki/maintenance_engineering> <http://www.w3.org/2000/01/rdf-schema#label> "maintenance engineering"@en .
+<http://en.wikipedia.org/wiki/materials_informatics> <http://www.w3.org/2000/01/rdf-schema#label> "materials informatics"@en .
+<http://en.wikipedia.org/wiki/mechanobiology> <http://www.w3.org/2000/01/rdf-schema#label> "mechanobiology"@en .
+<http://en.wikipedia.org/wiki/multi-disciplinary_engineering> <http://www.w3.org/2000/01/rdf-schema#label> "multi-disciplinary engineering"@en .
+<http://en.wikipedia.org/wiki/multidisciplinary_design_optimization> <http://www.w3.org/2000/01/rdf-schema#label> "multidisciplinary design optimization"@en .
+<http://en.wikipedia.org/wiki/nadal_formula> <http://www.w3.org/2000/01/rdf-schema#label> "nadal formula"@en .
+<http://en.wikipedia.org/wiki/new_manufacturing_economy> <http://www.w3.org/2000/01/rdf-schema#label> "new manufacturing economy"@en .
+<http://en.wikipedia.org/wiki/engineering_notation> <http://www.w3.org/2000/01/rdf-schema#label> "engineering notation"@en .
+<http://en.wikipedia.org/wiki/online_engineering> <http://www.w3.org/2000/01/rdf-schema#label> "online engineering"@en .
+<http://en.wikipedia.org/wiki/operating_deflection_shape> <http://www.w3.org/2000/01/rdf-schema#label> "operating deflection shape"@en .
+<http://en.wikipedia.org/wiki/organic_engineering_systems> <http://www.w3.org/2000/01/rdf-schema#label> "organic engineering systems"@en .
+<http://en.wikipedia.org/wiki/overengineering> <http://www.w3.org/2000/01/rdf-schema#label> "overengineering"@en .
+<http://en.wikipedia.org/wiki/overhead_(engineering)> <http://www.w3.org/2000/01/rdf-schema#label> "overhead (engineering)"@en .
+<http://en.wikipedia.org/wiki/owner%27s_engineer> <http://www.w3.org/2000/01/rdf-schema#label> "owner's engineer"@en .
+<http://en.wikipedia.org/wiki/philosophy_of_engineering> <http://www.w3.org/2000/01/rdf-schema#label> "philosophy of engineering"@en .
+<http://en.wikipedia.org/wiki/piping_and_instrumentation_diagram> <http://www.w3.org/2000/01/rdf-schema#label> "piping and instrumentation diagram"@en .
+<http://en.wikipedia.org/wiki/plasmonic_metamaterials> <http://www.w3.org/2000/01/rdf-schema#label> "plasmonic metamaterials"@en .
+<http://en.wikipedia.org/wiki/polymer_engineering> <http://www.w3.org/2000/01/rdf-schema#label> "polymer engineering"@en .
+<http://en.wikipedia.org/wiki/precision_mechanics> <http://www.w3.org/2000/01/rdf-schema#label> "precision mechanics"@en .
+<http://en.wikipedia.org/wiki/preconsolidation_pressure> <http://www.w3.org/2000/01/rdf-schema#label> "preconsolidation pressure"@en .
+<http://en.wikipedia.org/wiki/predictive_maintenance> <http://www.w3.org/2000/01/rdf-schema#label> "predictive maintenance"@en .
+<http://en.wikipedia.org/wiki/priyadarshini_college_of_engineering> <http://www.w3.org/2000/01/rdf-schema#label> "priyadarshini college of engineering"@en .
+<http://en.wikipedia.org/wiki/projected_area> <http://www.w3.org/2000/01/rdf-schema#label> "projected area"@en .
+<http://en.wikipedia.org/wiki/reciprocity_(engineering)> <http://www.w3.org/2000/01/rdf-schema#label> "reciprocity (engineering)"@en .
+<http://en.wikipedia.org/wiki/reference_dimension> <http://www.w3.org/2000/01/rdf-schema#label> "reference dimension"@en .
+<http://en.wikipedia.org/wiki/reliability_centered_maintenance> <http://www.w3.org/2000/01/rdf-schema#label> "reliability centered maintenance"@en .
+<http://en.wikipedia.org/wiki/remote_laboratory> <http://www.w3.org/2000/01/rdf-schema#label> "remote laboratory"@en .
+<http://en.wikipedia.org/wiki/retro-engineering> <http://www.w3.org/2000/01/rdf-schema#label> "retro-engineering"@en .
+<http://en.wikipedia.org/wiki/spin_engineering> <http://www.w3.org/2000/01/rdf-schema#label> "spin engineering"@en .
+<http://en.wikipedia.org/wiki/sqep> <http://www.w3.org/2000/01/rdf-schema#label> "sqep"@en .
+<http://en.wikipedia.org/wiki/standardization> <http://www.w3.org/2000/01/rdf-schema#label> "standardization"@en .
+<http://en.wikipedia.org/wiki/statics> <http://www.w3.org/2000/01/rdf-schema#label> "statics"@en .
+<http://en.wikipedia.org/wiki/statistical_interference> <http://www.w3.org/2000/01/rdf-schema#label> "statistical interference"@en .
+<http://en.wikipedia.org/wiki/steel_moment_resisting_frame> <http://www.w3.org/2000/01/rdf-schema#label> "steel moment resisting frame"@en .
+<http://en.wikipedia.org/wiki/stream_function> <http://www.w3.org/2000/01/rdf-schema#label> "stream function"@en .
+<http://en.wikipedia.org/wiki/structural_integrity> <http://www.w3.org/2000/01/rdf-schema#label> "structural integrity"@en .
+<http://en.wikipedia.org/wiki/superficial_velocity> <http://www.w3.org/2000/01/rdf-schema#label> "superficial velocity"@en .
+<http://en.wikipedia.org/wiki/surface_plasmon_polaritons> <http://www.w3.org/2000/01/rdf-schema#label> "surface plasmon polaritons"@en .
+<http://en.wikipedia.org/wiki/surface_power_density> <http://www.w3.org/2000/01/rdf-schema#label> "surface power density"@en .
+<http://en.wikipedia.org/wiki/survivability> <http://www.w3.org/2000/01/rdf-schema#label> "survivability"@en .
+<http://en.wikipedia.org/wiki/swiss_cheese_model> <http://www.w3.org/2000/01/rdf-schema#label> "swiss cheese model"@en .
+<http://en.wikipedia.org/wiki/sydney_accord> <http://www.w3.org/2000/01/rdf-schema#label> "sydney accord"@en .
+<http://en.wikipedia.org/wiki/talascend> <http://www.w3.org/2000/01/rdf-schema#label> "talascend"@en .
+<http://en.wikipedia.org/wiki/test_bay> <http://www.w3.org/2000/01/rdf-schema#label> "test bay"@en .
+<http://en.wikipedia.org/wiki/traditional_engineering> <http://www.w3.org/2000/01/rdf-schema#label> "traditional engineering"@en .
+<http://en.wikipedia.org/wiki/transient_response> <http://www.w3.org/2000/01/rdf-schema#label> "transient response"@en .
+<http://en.wikipedia.org/wiki/unit_construction> <http://www.w3.org/2000/01/rdf-schema#label> "unit construction"@en .
+<http://en.wikipedia.org/wiki/universality-diversity_paradigm> <http://www.w3.org/2000/01/rdf-schema#label> "universality-diversity paradigm"@en .
+<http://en.wikipedia.org/wiki/portal:engineering> <http://www.w3.org/2000/01/rdf-schema#label> "portal:engineering"@en .
+<http://en.wikipedia.org/wiki/special:categories" title="special:categories">categories</a>: <ul><li><a href="/wiki/category:applied_sciences" title="category:applied sciences">applied sciences</a></li><li><a href="/wiki/category:technology" title="category:technology">technology</a></li></ul></div><div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-ns-shown">hidden categories: <ul><li><a href="/wiki/category:categories_requiring_diffusion> <http://www.w3.org/2000/01/rdf-schema#label> "special:categories">categories</a>: <ul><li><a href="/wiki/category:applied_sciences" title="category:applied sciences">applied sciences</a></li><li><a href="/wiki/category:technology" title="category:technology">technology</a></li></ul></div><div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-ns-shown">hidden categories: <ul><li><a href="/wiki/category:categories_requiring_diffusion" title="category:categories requiring diffusion"@en .
+<http://en.wikipedia.org/w/index.php?title=special:userlogin&amp;returnto=category%3aengineering&amp;type=signup">create account</a></li><li id="pt-login"><a href="/w/index.php?title=special:userlogin&amp;returnto=category%3aengineering> <http://www.w3.org/2000/01/rdf-schema#label> "you are encouraged to log in; however, it is not mandatory. [o]" accesskey="o"@en .
+<http://en.wikipedia.org/wiki/main_page> <http://www.w3.org/2000/01/rdf-schema#label> "visit the main page [z]" accesskey="z"@en .
+<http://en.wikipedia.org/wiki/portal:contents> <http://www.w3.org/2000/01/rdf-schema#label> "guides to browsing wikipedia"@en .
+<http://en.wikipedia.org/wiki/portal:featured_content> <http://www.w3.org/2000/01/rdf-schema#label> "featured content – the best of wikipedia"@en .
+<http://en.wikipedia.org/wiki/portal:current_events> <http://www.w3.org/2000/01/rdf-schema#label> "find background information on current events"@en .
+<http://en.wikipedia.org/wiki/special:random> <http://www.w3.org/2000/01/rdf-schema#label> "load a random article [x]" accesskey="x"@en .
+<http://en.wikipedia.org/wiki/help:contents> <http://www.w3.org/2000/01/rdf-schema#label> "guidance on how to use and edit wikipedia"@en .
+<http://en.wikipedia.org/wiki/wikipedia:about> <http://www.w3.org/2000/01/rdf-schema#label> "find out about wikipedia"@en .
+<http://en.wikipedia.org/wiki/wikipedia:community_portal> <http://www.w3.org/2000/01/rdf-schema#label> "about the project, what you can do, where to find things"@en .
+<http://en.wikipedia.org/wiki/special:recentchanges> <http://www.w3.org/2000/01/rdf-schema#label> "a list of recent changes in the wiki [r]" accesskey="r"@en .
+<http://en.wikipedia.org/wiki/wikipedia:contact_us> <http://www.w3.org/2000/01/rdf-schema#label> "how to contact wikipedia"@en .
+<http://en.wikipedia.org/wiki/special:whatlinkshere/category:engineering> <http://www.w3.org/2000/01/rdf-schema#label> "list of all english wikipedia pages containing links to this page [j]" accesskey="j"@en .
+<http://en.wikipedia.org/wiki/special:recentchangeslinked/category:engineering> <http://www.w3.org/2000/01/rdf-schema#label> "recent changes in pages linked from this page [k]" accesskey="k"@en .
+<http://en.wikipedia.org/wiki/wikipedia:file_upload_wizard> <http://www.w3.org/2000/01/rdf-schema#label> "upload files [u]" accesskey="u"@en .
+<http://en.wikipedia.org/wiki/special:specialpages> <http://www.w3.org/2000/01/rdf-schema#label> "a list of all special pages [q]" accesskey="q"@en .
+<http://en.wikipedia.org/w/index.php?title=category:engineering&amp;oldid=529720412> <http://www.w3.org/2000/01/rdf-schema#label> "permanent link to this revision of the page"@en .
+<http://en.wikipedia.org/w/index.php?title=special:book&amp;bookcmd=book_creator&amp;referer=category%3aengineering" title="create a book or page collection" rel="nofollow">create a book</a></li><li id="coll-download-as-rl"><a href="/w/index.php?title=special:book&amp;bookcmd=render_article&amp;arttitle=category%3aengineering&amp;oldid=529720412&amp;writer=rl" title="download a pdf version of this wiki page" rel="nofollow">download as pdf</a></li><li id="t-print"><a href="/w/index.php?title=category:engineering&amp;printable=yes> <http://www.w3.org/2000/01/rdf-schema#label> "create a book or page collection" rel="nofollow">create a book</a></li><li id="coll-download-as-rl"><a href="/w/index.php?title=special:book&amp;bookcmd=render_article&amp;arttitle=category%3aengineering&amp;oldid=529720412&amp;writer=rl" title="download a pdf version of this wiki page" rel="nofollow">download as pdf</a></li><li id="t-print"><a href="/w/index.php?title=category:engineering&amp;printable=yes" title="printable version of this page [p]" accesskey="p"@en .
+<http://en.wikipedia.org//wikimediafoundation.org/wiki/privacy_policy> <http://www.w3.org/2000/01/rdf-schema#label> "wikimedia:privacy policy"@en .
+<http://en.wikipedia.org/wiki/wikipedia:about> <http://www.w3.org/2000/01/rdf-schema#label> "wikipedia:about"@en .
+<http://en.wikipedia.org/wiki/wikipedia:general_disclaimer> <http://www.w3.org/2000/01/rdf-schema#label> "wikipedia:general disclaimer"@en .
