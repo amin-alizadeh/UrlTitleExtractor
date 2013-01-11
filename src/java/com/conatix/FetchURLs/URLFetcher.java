@@ -13,10 +13,12 @@ import java.util.regex.Pattern;
 public class URLFetcher {
 
 	public static void main(String[] args) {
+		String validateUrl = "http://en.wikipedia.org";
 		String url = "http://en.wikipedia.org/wiki/Category:Engineering";
 		String format = "<http://www.w3.org/2000/01/rdf-schema#label>";
 		String language = "en";
 		String fileName = "EnglishWikiEnginnering.rdf";
+		boolean append = false;
 
 		for (int i = 0; i < args.length; i++) {
 			if ("-url".equals(args[i])) {
@@ -31,34 +33,80 @@ public class URLFetcher {
 			} else if ("-filename".equals(args[i])) {
 				fileName = args[i + 1];
 				i++;
+			} else if ("-validateUrl".equals(args[i])) {
+				validateUrl = args[i + 1];
+				i++;
+			} else if ("-append".equals(args[i])) {
+				append = Boolean.parseBoolean(args[i + 1]);
+				i++;
 			}
 		}
 
 		String siteContent = getUrlContent(url);
 
 		String subCategoriesContent = getMWsubCategories(siteContent);
+		ListOfTitlesUrls categoriesNUrls = new ListOfTitlesUrls();
+		categoriesNUrls = getTitlesAndUrls(subCategoriesContent);
+		
+		String subPagesContent = getMWSubPages(siteContent);
+		ListOfTitlesUrls pagesNUrls = new ListOfTitlesUrls();
+		pagesNUrls = getTitlesAndUrls(subPagesContent);
+		
+		List<String> validCategoriesURLs = makeValidURLs(categoriesNUrls.allUrls, validateUrl);
+		List<String> validPagesURLs = makeValidURLs(pagesNUrls.allUrls, validateUrl);
+		
+		ListOfTitlesUrls validatedCategoriesAndUrls = new ListOfTitlesUrls();
+		validatedCategoriesAndUrls.allTitles.addAll(categoriesNUrls.allTitles);
+		validatedCategoriesAndUrls.allUrls.addAll(validCategoriesURLs);
+		
+		ListOfTitlesUrls validatedPagesAndUrls = new ListOfTitlesUrls();
+		validatedPagesAndUrls.allTitles.addAll(pagesNUrls.allTitles);
+		validatedPagesAndUrls.allUrls.addAll(validPagesURLs);
+		
+//		System.out.println("Titles size: " + validatedCategoriesAndUrls.allTitles.size() + " URL size: " + validatedCategoriesAndUrls.allUrls.size() + " get size: " + validatedCategoriesAndUrls.size());
+		
+//		System.out.println(validatedCategoriesAndUrls.toString());
 
-		ListOfTitlesUrls categoriesNUrls = getSubCategories(subCategoriesContent);
-
-		// ListOfTitlesUrls titlesNUrls = getTitlesNURLs(siteContent);
-
-		// for (int j = 0; j < titlesNUrls.allUrls.size(); j++) {
-		// System.out.println(j + " -> TITLE = " + titlesNUrls.allUrls.get(j));
-		// }
-
-		// RDFFile stanbolRDF = new RDFFile(fileName, format, language,
+		RDFFile stanbolRDF = new RDFFile(format, language, validatedPagesAndUrls.allTitles, validatedPagesAndUrls.allUrls);
+		System.out.println(stanbolRDF.toString());
+		stanbolRDF.saveRDFFile(fileName);
+		// RDFFile stanbolRDF = new RDFFile(format, language,
 		// titlesNUrls.allTitles, titlesNUrls.allUrls);
 		// stanbolRDF.saveRDFFile();
 	}
 
-	private static ListOfTitlesUrls getSubCategories(String subCategoriesContent) {
+	private static List<String> makeValidURLs(List<String> allUrls, String webUrl) {
+		List<String> validURLs = new ArrayList<String>();
+		for(int i = 0; i < allUrls.size(); i++){
+			String url = allUrls.get(i);
+			String validUrl = "";
+			if(isValidURL(url)){
+				validUrl = url;
+			} else {
+				validUrl = webUrl + url;
+			}
+			validURLs.add(validUrl);
+		}
+		return validURLs;
+	}
+
+	private static String getMWSubPages(String siteContent) {
+		String[] contentSplits = siteContent.split("<div id=\"mw-pages\">");
+		String mwPageAndAll = contentSplits[1];
+		String[] divSplits = mwPageAndAll
+				.split("</div>.*<!-- /bodycontent -->");
+
+		return divSplits[0];
+	}
+
+	private static ListOfTitlesUrls getTitlesAndUrls(String subTitlesContent) {
 
 		List<String> allTitles = new ArrayList<String>();
 		List<String> allUrls = new ArrayList<String>();
-		ListOfTitlesUrls subCategoriesNUrls = new ListOfTitlesUrls();
-
-		Pattern pCategories = Pattern.compile("<a\\s.*\\shref=\".*\".*</a>");
-		Matcher mCategories = pCategories.matcher(subCategoriesContent);
+		ListOfTitlesUrls subTitlesNUrls = new ListOfTitlesUrls();
+		
+		Pattern pCategories = Pattern.compile("<a\\s.*href=\".*\".*</a>");
+		Matcher mCategories = pCategories.matcher(subTitlesContent);
 		String tag = "";
 		String hrefURL, title;
 		
@@ -66,13 +114,13 @@ public class URLFetcher {
 			tag = mCategories.group();
 			hrefURL = getHrefURL(tag);
 			title = getTitle(tag);
-//			System.out.println(tag);
+			allUrls.add(hrefURL);
+			allTitles.add(title);
 		}
-		// The results are:
-		// <a class="categorytreelabel  categorytreelabelns14 categorytreelabelcategory"
-		// href="/wiki/category:technology">technology</a>
-		
-		return null;
+		subTitlesNUrls.allTitles.addAll(allTitles);
+		subTitlesNUrls.allUrls.addAll(allUrls);
+
+		return subTitlesNUrls;
 	}
 
 	private static String getTitle(String tag) {
@@ -86,7 +134,6 @@ public class URLFetcher {
 		String hrefURL = "";
 		String[] tagSplits1 = tag.split("\\shref=\"");
 		hrefURL = tagSplits1[1].split("\".*>")[0];
-		System.out.println(hrefURL);
 		return hrefURL;
 	}
 
@@ -100,35 +147,6 @@ public class URLFetcher {
 		return divSplits[0];
 	}
 
-	private static ListOfTitlesUrls getTitlesNURLs(String siteContent) {
-		List<String> allTitles = new ArrayList<String>();
-		List<String> allUrls = new ArrayList<String>();
-		Pattern p = Pattern.compile("<a\\shref=\".*\"\\stitle=\".*\">");
-		Matcher m = p.matcher(siteContent);
-		String tag;
-		String ttl = "";
-		String strUrl = "";
-
-		while (m.find()) {
-			tag = m.group();
-			ttl = getTitleFromTag(tag);
-			strUrl = getUrlFromTag(tag);
-
-			if (isValidURL(strUrl)) {
-				allTitles.add(ttl);
-				allUrls.add(strUrl);
-				System.out.println("Tag: " + tag + "\nurl: " + strUrl
-						+ "\ntitle: " + ttl);
-			}
-		}
-
-		ListOfTitlesUrls ttlURL = new ListOfTitlesUrls();
-		ttlURL.allTitles = allTitles;
-		ttlURL.allUrls = allUrls;
-
-		return ttlURL;
-	}
-
 	private static boolean isValidURL(String strUrl) {
 		URL validURL;
 		boolean isValid = false;
@@ -140,31 +158,6 @@ public class URLFetcher {
 		}
 
 		return isValid;
-	}
-
-	private static String getUrlFromTag(String tag) {
-		String url = "";
-		Pattern p = Pattern.compile("<a\\shref=\".*\"\\stitle");
-		Matcher m = p.matcher(tag);
-		while (m.find()) {
-			url = m.group().trim();
-			url = url.substring(6, url.length() - 7);
-		}
-		if (!url.contains("wikipedia.org")) {
-			url = "http://en.wikipedia.org" + url;
-		}
-		return url;
-	}
-
-	private static String getTitleFromTag(String tag) {
-		String title = "";
-		Pattern p = Pattern.compile("\\stitle=\".*\"");
-		Matcher m = p.matcher(tag);
-		while (m.find()) {
-			title = m.group().trim();
-			title = title.substring(7, title.length() - 1);
-		}
-		return title;
 	}
 
 	private static String getUrlContent(String recUrl) {
@@ -191,9 +184,4 @@ public class URLFetcher {
 		return result;
 	}
 
-}
-
-class ListOfTitlesUrls {
-	List<String> allTitles = new ArrayList<String>();
-	List<String> allUrls = new ArrayList<String>();
 }

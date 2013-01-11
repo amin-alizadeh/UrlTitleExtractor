@@ -5,9 +5,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.List;
 
-@SuppressWarnings("unused")
 public class RDFFile {
-	private static String fileName;
 	private static String format;
 	private static String language;
 	private static List<String> titles;
@@ -17,10 +15,9 @@ public class RDFFile {
 	
 	
 	@SuppressWarnings("static-access")
-	public RDFFile(String fileName, String format, String language,
+	public RDFFile(String format, String language,
 			List<String> titles, List<String> urls) {
 		super();
-		this.fileName = fileName;
 		this.format = format;
 		this.language = language;
 		this.titles = titles;
@@ -28,30 +25,35 @@ public class RDFFile {
 		this.size = titles.size();
 	}
 	
+	public void saveRDFFile(String fileName){
+		saveRDFFile(fileName, false);
+	}
 	
-	public void saveRDFFile() {
+	public void saveRDFFile(String fileName, boolean append) {
 		
 		FileWriter fStream;
-//		System.out.println(logFileName);
 		try {
-			fStream = new FileWriter(fileName);
+			fStream = new FileWriter(fileName, append);
 			BufferedWriter rdfWriter = new BufferedWriter(fStream);
-			
-			String line = "";
-			for (int i = 0; i < size; i++){
-				line = "<" + urls.get(i) + "> " + format + " \"" + titles.get(i) + "\"@" + language + " .";
-				rdfWriter.write(line);
-				rdfWriter.newLine();
-			}
-
+			String rdfFormat = this.toString();
+			rdfWriter.write(rdfFormat);
 			rdfWriter.flush();
 			rdfWriter.close();
 		} catch (IOException e) {
-			System.out.println(e.toString());
 			e.printStackTrace();
 		}
 
 		
+	}
+
+
+	@Override
+	public String toString() {
+		String rdfFormat = "";
+		for (int i = 0; i < size; i++){
+			rdfFormat += "<" + urls.get(i) + "> " + format + " \"" + titles.get(i) + "\"@" + language + " .\n";
+		}
+		return rdfFormat;
 	}
 
 	
