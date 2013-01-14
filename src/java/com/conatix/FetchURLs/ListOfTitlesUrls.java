@@ -14,7 +14,6 @@ public class ListOfTitlesUrls {
 	public String toString() {
 		String titlesNUrls = "";
 		for (int i = 0; i < size(); i++) {
-			System.out.println(allTitles.get(i));
 			titlesNUrls += "Title: " + allTitles.get(i) + "\nURL: "
 					+ allUrls.get(i) + "\n";
 		}

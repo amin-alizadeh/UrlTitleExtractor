@@ -1,0 +1,194 @@
+<http://fa.wikipedia.org/wiki/جمهوری_آذربایجان> <http://www.w3.org/2000/01/rdf-schema#label> "جمهوری آذربایجان"@fa .
+<http://fa.wikipedia.org/wiki/آرژانتین> <http://www.w3.org/2000/01/rdf-schema#label> "آرژانتین"@fa .
+<http://fa.wikipedia.org/wiki/آفریقای_جنوبی> <http://www.w3.org/2000/01/rdf-schema#label> "آفریقای جنوبی"@fa .
+<http://fa.wikipedia.org/wiki/جمهوری_آفریقای_مرکزی> <http://www.w3.org/2000/01/rdf-schema#label> "جمهوری آفریقای مرکزی"@fa .
+<http://fa.wikipedia.org/wiki/آلبانی> <http://www.w3.org/2000/01/rdf-schema#label> "آلبانی"@fa .
+<http://fa.wikipedia.org/wiki/آلمان> <http://www.w3.org/2000/01/rdf-schema#label> "آلمان"@fa .
+<http://fa.wikipedia.org/wiki/آنتیگوا_و_باربودا> <http://www.w3.org/2000/01/rdf-schema#label> "آنتیگوا و باربودا"@fa .
+<http://fa.wikipedia.org/wiki/آندورا> <http://www.w3.org/2000/01/rdf-schema#label> "آندورا"@fa .
+<http://fa.wikipedia.org/wiki/آنگولا> <http://www.w3.org/2000/01/rdf-schema#label> "آنگولا"@fa .
+<http://fa.wikipedia.org/wiki/اتریش> <http://www.w3.org/2000/01/rdf-schema#label> "اتریش"@fa .
+<http://fa.wikipedia.org/wiki/اتیوپی> <http://www.w3.org/2000/01/rdf-schema#label> "اتیوپی"@fa .
+<http://fa.wikipedia.org/wiki/اردن> <http://www.w3.org/2000/01/rdf-schema#label> "اردن"@fa .
+<http://fa.wikipedia.org/wiki/ارمنستان> <http://www.w3.org/2000/01/rdf-schema#label> "ارمنستان"@fa .
+<http://fa.wikipedia.org/wiki/اروگوئه> <http://www.w3.org/2000/01/rdf-schema#label> "اروگوئه"@fa .
+<http://fa.wikipedia.org/wiki/اریتره> <http://www.w3.org/2000/01/rdf-schema#label> "اریتره"@fa .
+<http://fa.wikipedia.org/wiki/ازبکستان> <http://www.w3.org/2000/01/rdf-schema#label> "ازبکستان"@fa .
+<http://fa.wikipedia.org/wiki/اسپانیا> <http://www.w3.org/2000/01/rdf-schema#label> "اسپانیا"@fa .
+<http://fa.wikipedia.org/wiki/استرالیا> <http://www.w3.org/2000/01/rdf-schema#label> "استرالیا"@fa .
+<http://fa.wikipedia.org/wiki/استونی> <http://www.w3.org/2000/01/rdf-schema#label> "استونی"@fa .
+<http://fa.wikipedia.org/wiki/اسلواکی> <http://www.w3.org/2000/01/rdf-schema#label> "اسلواکی"@fa .
+<http://fa.wikipedia.org/wiki/اسلوونی> <http://www.w3.org/2000/01/rdf-schema#label> "اسلوونی"@fa .
+<http://fa.wikipedia.org/wiki/افغانستان> <http://www.w3.org/2000/01/rdf-schema#label> "افغانستان"@fa .
+<http://fa.wikipedia.org/wiki/اکوادور> <http://www.w3.org/2000/01/rdf-schema#label> "اکوادور"@fa .
+<http://fa.wikipedia.org/wiki/الجزایر> <http://www.w3.org/2000/01/rdf-schema#label> "الجزایر"@fa .
+<http://fa.wikipedia.org/wiki/السالوادور> <http://www.w3.org/2000/01/rdf-schema#label> "السالوادور"@fa .
+<http://fa.wikipedia.org/wiki/امارات_متحده_عربی> <http://www.w3.org/2000/01/rdf-schema#label> "امارات متحده عربی"@fa .
+<http://fa.wikipedia.org/wiki/اندونزی> <http://www.w3.org/2000/01/rdf-schema#label> "اندونزی"@fa .
+<http://fa.wikipedia.org/wiki/اوکراین> <http://www.w3.org/2000/01/rdf-schema#label> "اوکراین"@fa .
+<http://fa.wikipedia.org/wiki/اوگاندا> <http://www.w3.org/2000/01/rdf-schema#label> "اوگاندا"@fa .
+<http://fa.wikipedia.org/wiki/ایالات_متحده_آمریکا> <http://www.w3.org/2000/01/rdf-schema#label> "ایالات متحده آمریکا"@fa .
+<http://fa.wikipedia.org/wiki/ایتالیا> <http://www.w3.org/2000/01/rdf-schema#label> "ایتالیا"@fa .
+<http://fa.wikipedia.org/wiki/ایران> <http://www.w3.org/2000/01/rdf-schema#label> "ایران"@fa .
+<http://fa.wikipedia.org/wiki/جمهوری_ایرلند> <http://www.w3.org/2000/01/rdf-schema#label> "جمهوری ایرلند"@fa .
+<http://fa.wikipedia.org/wiki/ایسلند> <http://www.w3.org/2000/01/rdf-schema#label> "ایسلند"@fa .
+<http://fa.wikipedia.org/wiki/باربادوس> <http://www.w3.org/2000/01/rdf-schema#label> "باربادوس"@fa .
+<http://fa.wikipedia.org/wiki/باهاما> <http://www.w3.org/2000/01/rdf-schema#label> "باهاما"@fa .
+<http://fa.wikipedia.org/wiki/بحرین> <http://www.w3.org/2000/01/rdf-schema#label> "بحرین"@fa .
+<http://fa.wikipedia.org/wiki/برزیل> <http://www.w3.org/2000/01/rdf-schema#label> "برزیل"@fa .
+<http://fa.wikipedia.org/wiki/برونئی> <http://www.w3.org/2000/01/rdf-schema#label> "برونئی"@fa .
+<http://fa.wikipedia.org/wiki/بریتانیا> <http://www.w3.org/2000/01/rdf-schema#label> "بریتانیا"@fa .
+<http://fa.wikipedia.org/wiki/بلاروس> <http://www.w3.org/2000/01/rdf-schema#label> "بلاروس"@fa .
+<http://fa.wikipedia.org/wiki/بلژیک> <http://www.w3.org/2000/01/rdf-schema#label> "بلژیک"@fa .
+<http://fa.wikipedia.org/wiki/بلغارستان> <http://www.w3.org/2000/01/rdf-schema#label> "بلغارستان"@fa .
+<http://fa.wikipedia.org/wiki/بلیز> <http://www.w3.org/2000/01/rdf-schema#label> "بلیز"@fa .
+<http://fa.wikipedia.org/wiki/بنگلادش> <http://www.w3.org/2000/01/rdf-schema#label> "بنگلادش"@fa .
+<http://fa.wikipedia.org/wiki/بنین> <http://www.w3.org/2000/01/rdf-schema#label> "بنین"@fa .
+<http://fa.wikipedia.org/wiki/پادشاهی_بوتان> <http://www.w3.org/2000/01/rdf-schema#label> "پادشاهی بوتان"@fa .
+<http://fa.wikipedia.org/wiki/بوتسوانا> <http://www.w3.org/2000/01/rdf-schema#label> "بوتسوانا"@fa .
+<http://fa.wikipedia.org/wiki/بورکینافاسو> <http://www.w3.org/2000/01/rdf-schema#label> "بورکینافاسو"@fa .
+<http://fa.wikipedia.org/wiki/بوروندی> <http://www.w3.org/2000/01/rdf-schema#label> "بوروندی"@fa .
+<http://fa.wikipedia.org/wiki/بوسنی_و_هرزگوین> <http://www.w3.org/2000/01/rdf-schema#label> "بوسنی و هرزگوین"@fa .
+<http://fa.wikipedia.org/wiki/بولیوی> <http://www.w3.org/2000/01/rdf-schema#label> "بولیوی"@fa .
+<http://fa.wikipedia.org/wiki/پاپوآ_گینه_نو> <http://www.w3.org/2000/01/rdf-schema#label> "پاپوآ گینه نو"@fa .
+<http://fa.wikipedia.org/wiki/پاراگوئه> <http://www.w3.org/2000/01/rdf-schema#label> "پاراگوئه"@fa .
+<http://fa.wikipedia.org/wiki/پاناما> <http://www.w3.org/2000/01/rdf-schema#label> "پاناما"@fa .
+<http://fa.wikipedia.org/wiki/پاکستان> <http://www.w3.org/2000/01/rdf-schema#label> "پاکستان"@fa .
+<http://fa.wikipedia.org/wiki/پرتغال> <http://www.w3.org/2000/01/rdf-schema#label> "پرتغال"@fa .
+<http://fa.wikipedia.org/wiki/پرو> <http://www.w3.org/2000/01/rdf-schema#label> "پرو"@fa .
+<http://fa.wikipedia.org/wiki/پورتوریکو> <http://www.w3.org/2000/01/rdf-schema#label> "پورتوریکو"@fa .
+<http://fa.wikipedia.org/wiki/تاجیکستان> <http://www.w3.org/2000/01/rdf-schema#label> "تاجیکستان"@fa .
+<http://fa.wikipedia.org/wiki/تانزانیا> <http://www.w3.org/2000/01/rdf-schema#label> "تانزانیا"@fa .
+<http://fa.wikipedia.org/wiki/تایلند> <http://www.w3.org/2000/01/rdf-schema#label> "تایلند"@fa .
+<http://fa.wikipedia.org/wiki/جمهوری_چین> <http://www.w3.org/2000/01/rdf-schema#label> "جمهوری چین"@fa .
+<http://fa.wikipedia.org/wiki/ترکمنستان> <http://www.w3.org/2000/01/rdf-schema#label> "ترکمنستان"@fa .
+<http://fa.wikipedia.org/wiki/ترکیه> <http://www.w3.org/2000/01/rdf-schema#label> "ترکیه"@fa .
+<http://fa.wikipedia.org/wiki/ترینیداد_و_توباگو> <http://www.w3.org/2000/01/rdf-schema#label> "ترینیداد و توباگو"@fa .
+<http://fa.wikipedia.org/wiki/توگو> <http://www.w3.org/2000/01/rdf-schema#label> "توگو"@fa .
+<http://fa.wikipedia.org/wiki/تونس> <http://www.w3.org/2000/01/rdf-schema#label> "تونس"@fa .
+<http://fa.wikipedia.org/wiki/تونگا> <http://www.w3.org/2000/01/rdf-schema#label> "تونگا"@fa .
+<http://fa.wikipedia.org/wiki/تووالو> <http://www.w3.org/2000/01/rdf-schema#label> "تووالو"@fa .
+<http://fa.wikipedia.org/wiki/تیمور_شرقی> <http://www.w3.org/2000/01/rdf-schema#label> "تیمور شرقی"@fa .
+<http://fa.wikipedia.org/wiki/جامائیکا> <http://www.w3.org/2000/01/rdf-schema#label> "جامائیکا"@fa .
+<http://fa.wikipedia.org/wiki/جزایر_سلیمان> <http://www.w3.org/2000/01/rdf-schema#label> "جزایر سلیمان"@fa .
+<http://fa.wikipedia.org/wiki/جزایر_مارشال> <http://www.w3.org/2000/01/rdf-schema#label> "جزایر مارشال"@fa .
+<http://fa.wikipedia.org/wiki/جمهوری_چک> <http://www.w3.org/2000/01/rdf-schema#label> "جمهوری چک"@fa .
+<http://fa.wikipedia.org/wiki/جمهوری_دومینیکن> <http://www.w3.org/2000/01/rdf-schema#label> "جمهوری دومینیکن"@fa .
+<http://fa.wikipedia.org/wiki/جیبوتی> <http://www.w3.org/2000/01/rdf-schema#label> "جیبوتی"@fa .
+<http://fa.wikipedia.org/wiki/چاد> <http://www.w3.org/2000/01/rdf-schema#label> "چاد"@fa .
+<http://fa.wikipedia.org/wiki/چین> <http://www.w3.org/2000/01/rdf-schema#label> "چین"@fa .
+<http://fa.wikipedia.org/wiki/دانمارک> <http://www.w3.org/2000/01/rdf-schema#label> "دانمارک"@fa .
+<http://fa.wikipedia.org/wiki/دومینیکا> <http://www.w3.org/2000/01/rdf-schema#label> "دومینیکا"@fa .
+<http://fa.wikipedia.org/wiki/رواندا> <http://www.w3.org/2000/01/rdf-schema#label> "رواندا"@fa .
+<http://fa.wikipedia.org/wiki/روسیه> <http://www.w3.org/2000/01/rdf-schema#label> "روسیه"@fa .
+<http://fa.wikipedia.org/wiki/رومانی> <http://www.w3.org/2000/01/rdf-schema#label> "رومانی"@fa .
+<http://fa.wikipedia.org/wiki/زامبیا> <http://www.w3.org/2000/01/rdf-schema#label> "زامبیا"@fa .
+<http://fa.wikipedia.org/wiki/نیوزیلند> <http://www.w3.org/2000/01/rdf-schema#label> "نیوزیلند"@fa .
+<http://fa.wikipedia.org/wiki/زیمباوه> <http://www.w3.org/2000/01/rdf-schema#label> "زیمباوه"@fa .
+<http://fa.wikipedia.org/wiki/جمهوری_دموکراتیک_کنگو> <http://www.w3.org/2000/01/rdf-schema#label> "زئیر"@fa .
+<http://fa.wikipedia.org/wiki/ژاپن> <http://www.w3.org/2000/01/rdf-schema#label> "ژاپن"@fa .
+<http://fa.wikipedia.org/wiki/سائوتومه_و_پرینسیپ> <http://www.w3.org/2000/01/rdf-schema#label> "سائوتومه و پرینسیپ"@fa .
+<http://fa.wikipedia.org/wiki/ساحل_عاج> <http://www.w3.org/2000/01/rdf-schema#label> "ساحل عاج"@fa .
+<http://fa.wikipedia.org/wiki/ساموآی_غربی> <http://www.w3.org/2000/01/rdf-schema#label> "ساموآی غربی"@fa .
+<http://fa.wikipedia.org/wiki/سن_مارینو> <http://www.w3.org/2000/01/rdf-schema#label> "سن مارینو"@fa .
+<http://fa.wikipedia.org/wiki/سری‌لانکا> <http://www.w3.org/2000/01/rdf-schema#label> "سری‌لانکا"@fa .
+<http://fa.wikipedia.org/wiki/سنت_کیتس_و_نویس> <http://www.w3.org/2000/01/rdf-schema#label> "سنت کیتس و نویس"@fa .
+<http://fa.wikipedia.org/wiki/سنگاپور> <http://www.w3.org/2000/01/rdf-schema#label> "سنگاپور"@fa .
+<http://fa.wikipedia.org/wiki/سنگال> <http://www.w3.org/2000/01/rdf-schema#label> "سنگال"@fa .
+<http://fa.wikipedia.org/wiki/سوئد> <http://www.w3.org/2000/01/rdf-schema#label> "سوئد"@fa .
+<http://fa.wikipedia.org/wiki/سوئیس> <http://www.w3.org/2000/01/rdf-schema#label> "سوئیس"@fa .
+<http://fa.wikipedia.org/wiki/سوازیلند> <http://www.w3.org/2000/01/rdf-schema#label> "سوازیلند"@fa .
+<http://fa.wikipedia.org/wiki/سودان> <http://www.w3.org/2000/01/rdf-schema#label> "سودان"@fa .
+<http://fa.wikipedia.org/wiki/سودان_جنوبی> <http://www.w3.org/2000/01/rdf-schema#label> "سودان جنوبی"@fa .
+<http://fa.wikipedia.org/wiki/سورینام> <http://www.w3.org/2000/01/rdf-schema#label> "سورینام"@fa .
+<http://fa.wikipedia.org/wiki/سوریه> <http://www.w3.org/2000/01/rdf-schema#label> "سوریه"@fa .
+<http://fa.wikipedia.org/wiki/سومالی> <http://www.w3.org/2000/01/rdf-schema#label> "سومالی"@fa .
+<http://fa.wikipedia.org/wiki/سیرالئون> <http://www.w3.org/2000/01/rdf-schema#label> "سیرالئون"@fa .
+<http://fa.wikipedia.org/wiki/سیشل> <http://www.w3.org/2000/01/rdf-schema#label> "سیشل"@fa .
+<http://fa.wikipedia.org/wiki/شیلی> <http://www.w3.org/2000/01/rdf-schema#label> "شیلی"@fa .
+<http://fa.wikipedia.org/wiki/صربستان> <http://www.w3.org/2000/01/rdf-schema#label> "صربستان"@fa .
+<http://fa.wikipedia.org/wiki/عراق> <http://www.w3.org/2000/01/rdf-schema#label> "عراق"@fa .
+<http://fa.wikipedia.org/wiki/عربستان_سعودی> <http://www.w3.org/2000/01/rdf-schema#label> "عربستان سعودی"@fa .
+<http://fa.wikipedia.org/wiki/عمان> <http://www.w3.org/2000/01/rdf-schema#label> "عمان"@fa .
+<http://fa.wikipedia.org/wiki/غنا> <http://www.w3.org/2000/01/rdf-schema#label> "غنا"@fa .
+<http://fa.wikipedia.org/wiki/فرانسه> <http://www.w3.org/2000/01/rdf-schema#label> "فرانسه"@fa .
+<http://fa.wikipedia.org/wiki/فلسطین> <http://www.w3.org/2000/01/rdf-schema#label> "فلسطین"@fa .
+<http://fa.wikipedia.org/wiki/فنلاند> <http://www.w3.org/2000/01/rdf-schema#label> "فنلاند"@fa .
+<http://fa.wikipedia.org/wiki/فیجی> <http://www.w3.org/2000/01/rdf-schema#label> "فیجی"@fa .
+<http://fa.wikipedia.org/wiki/فیلیپین> <http://www.w3.org/2000/01/rdf-schema#label> "فیلیپین"@fa .
+<http://fa.wikipedia.org/wiki/قبرس> <http://www.w3.org/2000/01/rdf-schema#label> "قبرس"@fa .
+<http://fa.wikipedia.org/wiki/قرقیزستان> <http://www.w3.org/2000/01/rdf-schema#label> "قرقیزستان"@fa .
+<http://fa.wikipedia.org/wiki/قزاقستان> <http://www.w3.org/2000/01/rdf-schema#label> "قزاقستان"@fa .
+<http://fa.wikipedia.org/wiki/قطر> <http://www.w3.org/2000/01/rdf-schema#label> "قطر"@fa .
+<http://fa.wikipedia.org/wiki/کامبوج> <http://www.w3.org/2000/01/rdf-schema#label> "کامبوج"@fa .
+<http://fa.wikipedia.org/wiki/کامرون> <http://www.w3.org/2000/01/rdf-schema#label> "کامرون"@fa .
+<http://fa.wikipedia.org/wiki/کانادا> <http://www.w3.org/2000/01/rdf-schema#label> "کانادا"@fa .
+<http://fa.wikipedia.org/wiki/کره_جنوبی> <http://www.w3.org/2000/01/rdf-schema#label> "کره جنوبی"@fa .
+<http://fa.wikipedia.org/wiki/کره_شمالی> <http://www.w3.org/2000/01/rdf-schema#label> "کره شمالی"@fa .
+<http://fa.wikipedia.org/wiki/کرواسی> <http://www.w3.org/2000/01/rdf-schema#label> "کرواسی"@fa .
+<http://fa.wikipedia.org/wiki/کاستاریکا> <http://www.w3.org/2000/01/rdf-schema#label> "کاستاریکا"@fa .
+<http://fa.wikipedia.org/wiki/کلمبیا> <http://www.w3.org/2000/01/rdf-schema#label> "کلمبیا"@fa .
+<http://fa.wikipedia.org/wiki/جمهوری_کنگو> <http://www.w3.org/2000/01/rdf-schema#label> "جمهوری کنگو"@fa .
+<http://fa.wikipedia.org/wiki/کنیا> <http://www.w3.org/2000/01/rdf-schema#label> "کنیا"@fa .
+<http://fa.wikipedia.org/wiki/کوبا> <http://www.w3.org/2000/01/rdf-schema#label> "کوبا"@fa .
+<http://fa.wikipedia.org/wiki/مجمع‌الجزایر_قمر> <http://www.w3.org/2000/01/rdf-schema#label> "مجمع‌الجزایر قمر"@fa .
+<http://fa.wikipedia.org/wiki/کویت> <http://www.w3.org/2000/01/rdf-schema#label> "کویت"@fa .
+<http://fa.wikipedia.org/wiki/کیپ_ورد> <http://www.w3.org/2000/01/rdf-schema#label> "کیپ ورد"@fa .
+<http://fa.wikipedia.org/wiki/کیریباتی> <http://www.w3.org/2000/01/rdf-schema#label> "کیریباتی"@fa .
+<http://fa.wikipedia.org/wiki/گابن> <http://www.w3.org/2000/01/rdf-schema#label> "گابن"@fa .
+<http://fa.wikipedia.org/wiki/گامبیا> <http://www.w3.org/2000/01/rdf-schema#label> "گامبیا"@fa .
+<http://fa.wikipedia.org/wiki/گرجستان> <http://www.w3.org/2000/01/rdf-schema#label> "گرجستان"@fa .
+<http://fa.wikipedia.org/wiki/گرنادا> <http://www.w3.org/2000/01/rdf-schema#label> "گرنادا"@fa .
+<http://fa.wikipedia.org/wiki/گرینلند> <http://www.w3.org/2000/01/rdf-schema#label> "گرینلند"@fa .
+<http://fa.wikipedia.org/wiki/گواتمالا> <http://www.w3.org/2000/01/rdf-schema#label> "گواتمالا"@fa .
+<http://fa.wikipedia.org/wiki/گویان> <http://www.w3.org/2000/01/rdf-schema#label> "گویان"@fa .
+<http://fa.wikipedia.org/wiki/گینه> <http://www.w3.org/2000/01/rdf-schema#label> "گینه"@fa .
+<http://fa.wikipedia.org/wiki/گینه_استوایی> <http://www.w3.org/2000/01/rdf-schema#label> "گینه استوایی"@fa .
+<http://fa.wikipedia.org/wiki/گینه_بیسائو> <http://www.w3.org/2000/01/rdf-schema#label> "گینه بیسائو"@fa .
+<http://fa.wikipedia.org/wiki/لائوس> <http://www.w3.org/2000/01/rdf-schema#label> "لائوس"@fa .
+<http://fa.wikipedia.org/wiki/لبنان> <http://www.w3.org/2000/01/rdf-schema#label> "لبنان"@fa .
+<http://fa.wikipedia.org/wiki/لتونی> <http://www.w3.org/2000/01/rdf-schema#label> "لتونی"@fa .
+<http://fa.wikipedia.org/wiki/لسوتو> <http://www.w3.org/2000/01/rdf-schema#label> "لسوتو"@fa .
+<http://fa.wikipedia.org/wiki/لهستان> <http://www.w3.org/2000/01/rdf-schema#label> "لهستان"@fa .
+<http://fa.wikipedia.org/wiki/لوکزامبورگ> <http://www.w3.org/2000/01/rdf-schema#label> "لوکزامبورگ"@fa .
+<http://fa.wikipedia.org/wiki/لیبریا> <http://www.w3.org/2000/01/rdf-schema#label> "لیبریا"@fa .
+<http://fa.wikipedia.org/wiki/لیبی> <http://www.w3.org/2000/01/rdf-schema#label> "لیبی"@fa .
+<http://fa.wikipedia.org/wiki/لیتوانی> <http://www.w3.org/2000/01/rdf-schema#label> "لیتوانی"@fa .
+<http://fa.wikipedia.org/wiki/لیختن‌اشتاین> <http://www.w3.org/2000/01/rdf-schema#label> "لیختن‌اشتاین"@fa .
+<http://fa.wikipedia.org/wiki/ماداگاسکار> <http://www.w3.org/2000/01/rdf-schema#label> "ماداگاسکار"@fa .
+<http://fa.wikipedia.org/wiki/مالاوی> <http://www.w3.org/2000/01/rdf-schema#label> "مالاوی"@fa .
+<http://fa.wikipedia.org/wiki/مالت> <http://www.w3.org/2000/01/rdf-schema#label> "مالت"@fa .
+<http://fa.wikipedia.org/wiki/مالدیو> <http://www.w3.org/2000/01/rdf-schema#label> "مالدیو"@fa .
+<http://fa.wikipedia.org/wiki/مالزی> <http://www.w3.org/2000/01/rdf-schema#label> "مالزی"@fa .
+<http://fa.wikipedia.org/wiki/مالی> <http://www.w3.org/2000/01/rdf-schema#label> "مالی"@fa .
+<http://fa.wikipedia.org/wiki/مجارستان> <http://www.w3.org/2000/01/rdf-schema#label> "مجارستان"@fa .
+<http://fa.wikipedia.org/wiki/مراکش> <http://www.w3.org/2000/01/rdf-schema#label> "مراکش"@fa .
+<http://fa.wikipedia.org/wiki/مصر> <http://www.w3.org/2000/01/rdf-schema#label> "مصر"@fa .
+<http://fa.wikipedia.org/wiki/مغولستان> <http://www.w3.org/2000/01/rdf-schema#label> "مغولستان"@fa .
+<http://fa.wikipedia.org/wiki/مقدونیه> <http://www.w3.org/2000/01/rdf-schema#label> "مقدونیه"@fa .
+<http://fa.wikipedia.org/wiki/مکزیک> <http://www.w3.org/2000/01/rdf-schema#label> "مکزیک"@fa .
+<http://fa.wikipedia.org/wiki/موریتانی> <http://www.w3.org/2000/01/rdf-schema#label> "موریتانی"@fa .
+<http://fa.wikipedia.org/wiki/موریس> <http://www.w3.org/2000/01/rdf-schema#label> "موریس"@fa .
+<http://fa.wikipedia.org/wiki/موزامبیک> <http://www.w3.org/2000/01/rdf-schema#label> "موزامبیک"@fa .
+<http://fa.wikipedia.org/wiki/مولداوی> <http://www.w3.org/2000/01/rdf-schema#label> "مولداوی"@fa .
+<http://fa.wikipedia.org/wiki/موناکو> <http://www.w3.org/2000/01/rdf-schema#label> "موناکو"@fa .
+<http://fa.wikipedia.org/wiki/میانمار> <http://www.w3.org/2000/01/rdf-schema#label> "میانمار"@fa .
+<http://fa.wikipedia.org/wiki/ایالات_فدرال_میکرونزی> <http://www.w3.org/2000/01/rdf-schema#label> "ایالات فدرال میکرونزی"@fa .
+<http://fa.wikipedia.org/wiki/نائورو> <http://www.w3.org/2000/01/rdf-schema#label> "نائورو"@fa .
+<http://fa.wikipedia.org/wiki/نامیبیا> <http://www.w3.org/2000/01/rdf-schema#label> "نامیبیا"@fa .
+<http://fa.wikipedia.org/wiki/نپال> <http://www.w3.org/2000/01/rdf-schema#label> "نپال"@fa .
+<http://fa.wikipedia.org/wiki/نروژ> <http://www.w3.org/2000/01/rdf-schema#label> "نروژ"@fa .
+<http://fa.wikipedia.org/wiki/نیجر> <http://www.w3.org/2000/01/rdf-schema#label> "نیجر"@fa .
+<http://fa.wikipedia.org/wiki/نیجریه> <http://www.w3.org/2000/01/rdf-schema#label> "نیجریه"@fa .
+<http://fa.wikipedia.org/wiki/نیکاراگوئه> <http://www.w3.org/2000/01/rdf-schema#label> "نیکاراگوئه"@fa .
+<http://fa.wikipedia.org/wiki/واتیکان> <http://www.w3.org/2000/01/rdf-schema#label> "واتیکان"@fa .
+<http://fa.wikipedia.org/wiki/وانواتو> <http://www.w3.org/2000/01/rdf-schema#label> "وانواتو"@fa .
+<http://fa.wikipedia.org/wiki/ونزوئلا> <http://www.w3.org/2000/01/rdf-schema#label> "ونزوئلا"@fa .
+<http://fa.wikipedia.org/wiki/ویتنام> <http://www.w3.org/2000/01/rdf-schema#label> "ویتنام"@fa .
+<http://fa.wikipedia.org/wiki/هائیتی> <http://www.w3.org/2000/01/rdf-schema#label> "هائیتی"@fa .
+<http://fa.wikipedia.org/wiki/هلند> <http://www.w3.org/2000/01/rdf-schema#label> "هلند"@fa .
+<http://fa.wikipedia.org/wiki/هندوراس> <http://www.w3.org/2000/01/rdf-schema#label> "هندوراس"@fa .
+<http://fa.wikipedia.org/wiki/هند> <http://www.w3.org/2000/01/rdf-schema#label> "هند"@fa .
+<http://fa.wikipedia.org/wiki/یمن> <http://www.w3.org/2000/01/rdf-schema#label> "یمن"@fa .
+<http://fa.wikipedia.org/wiki/یونان> <http://www.w3.org/2000/01/rdf-schema#label> "یونان"@fa .
+<http://fa.wikipedia.org/wiki/یوگسلاوی> <http://www.w3.org/2000/01/rdf-schema#label> "یوگسلاوی"@fa .

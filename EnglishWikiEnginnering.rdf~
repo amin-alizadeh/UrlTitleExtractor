@@ -1,3 +1,4 @@
+<http://en.wikipedia.org/wiki/wikipedia:faq/categories#why_might_a_category_list_not_be_up_to_date.3f> <http://www.w3.org/2000/01/rdf-schema#label> "learn more"@en .
 <http://en.wikipedia.org/wiki/engineering> <http://www.w3.org/2000/01/rdf-schema#label> "engineering"@en .
 <http://en.wikipedia.org/wiki/index_of_engineering_articles> <http://www.w3.org/2000/01/rdf-schema#label> "index of engineering articles"@en .
 <http://en.wikipedia.org/wiki/outline_of_engineering> <http://www.w3.org/2000/01/rdf-schema#label> "outline of engineering"@en .
@@ -106,25 +107,4 @@
 <http://en.wikipedia.org/wiki/transient_response> <http://www.w3.org/2000/01/rdf-schema#label> "transient response"@en .
 <http://en.wikipedia.org/wiki/unit_construction> <http://www.w3.org/2000/01/rdf-schema#label> "unit construction"@en .
 <http://en.wikipedia.org/wiki/universality-diversity_paradigm> <http://www.w3.org/2000/01/rdf-schema#label> "universality-diversity paradigm"@en .
-<http://en.wikipedia.org/wiki/portal:engineering> <http://www.w3.org/2000/01/rdf-schema#label> "portal:engineering"@en .
-<http://en.wikipedia.org/wiki/special:categories" title="special:categories">categories</a>: <ul><li><a href="/wiki/category:applied_sciences" title="category:applied sciences">applied sciences</a></li><li><a href="/wiki/category:technology" title="category:technology">technology</a></li></ul></div><div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-ns-shown">hidden categories: <ul><li><a href="/wiki/category:categories_requiring_diffusion> <http://www.w3.org/2000/01/rdf-schema#label> "special:categories">categories</a>: <ul><li><a href="/wiki/category:applied_sciences" title="category:applied sciences">applied sciences</a></li><li><a href="/wiki/category:technology" title="category:technology">technology</a></li></ul></div><div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-ns-shown">hidden categories: <ul><li><a href="/wiki/category:categories_requiring_diffusion" title="category:categories requiring diffusion"@en .
-<http://en.wikipedia.org/w/index.php?title=special:userlogin&amp;returnto=category%3aengineering&amp;type=signup">create account</a></li><li id="pt-login"><a href="/w/index.php?title=special:userlogin&amp;returnto=category%3aengineering> <http://www.w3.org/2000/01/rdf-schema#label> "you are encouraged to log in; however, it is not mandatory. [o]" accesskey="o"@en .
-<http://en.wikipedia.org/wiki/main_page> <http://www.w3.org/2000/01/rdf-schema#label> "visit the main page [z]" accesskey="z"@en .
-<http://en.wikipedia.org/wiki/portal:contents> <http://www.w3.org/2000/01/rdf-schema#label> "guides to browsing wikipedia"@en .
-<http://en.wikipedia.org/wiki/portal:featured_content> <http://www.w3.org/2000/01/rdf-schema#label> "featured content – the best of wikipedia"@en .
-<http://en.wikipedia.org/wiki/portal:current_events> <http://www.w3.org/2000/01/rdf-schema#label> "find background information on current events"@en .
-<http://en.wikipedia.org/wiki/special:random> <http://www.w3.org/2000/01/rdf-schema#label> "load a random article [x]" accesskey="x"@en .
-<http://en.wikipedia.org/wiki/help:contents> <http://www.w3.org/2000/01/rdf-schema#label> "guidance on how to use and edit wikipedia"@en .
-<http://en.wikipedia.org/wiki/wikipedia:about> <http://www.w3.org/2000/01/rdf-schema#label> "find out about wikipedia"@en .
-<http://en.wikipedia.org/wiki/wikipedia:community_portal> <http://www.w3.org/2000/01/rdf-schema#label> "about the project, what you can do, where to find things"@en .
-<http://en.wikipedia.org/wiki/special:recentchanges> <http://www.w3.org/2000/01/rdf-schema#label> "a list of recent changes in the wiki [r]" accesskey="r"@en .
-<http://en.wikipedia.org/wiki/wikipedia:contact_us> <http://www.w3.org/2000/01/rdf-schema#label> "how to contact wikipedia"@en .
-<http://en.wikipedia.org/wiki/special:whatlinkshere/category:engineering> <http://www.w3.org/2000/01/rdf-schema#label> "list of all english wikipedia pages containing links to this page [j]" accesskey="j"@en .
-<http://en.wikipedia.org/wiki/special:recentchangeslinked/category:engineering> <http://www.w3.org/2000/01/rdf-schema#label> "recent changes in pages linked from this page [k]" accesskey="k"@en .
-<http://en.wikipedia.org/wiki/wikipedia:file_upload_wizard> <http://www.w3.org/2000/01/rdf-schema#label> "upload files [u]" accesskey="u"@en .
-<http://en.wikipedia.org/wiki/special:specialpages> <http://www.w3.org/2000/01/rdf-schema#label> "a list of all special pages [q]" accesskey="q"@en .
-<http://en.wikipedia.org/w/index.php?title=category:engineering&amp;oldid=529720412> <http://www.w3.org/2000/01/rdf-schema#label> "permanent link to this revision of the page"@en .
-<http://en.wikipedia.org/w/index.php?title=special:book&amp;bookcmd=book_creator&amp;referer=category%3aengineering" title="create a book or page collection" rel="nofollow">create a book</a></li><li id="coll-download-as-rl"><a href="/w/index.php?title=special:book&amp;bookcmd=render_article&amp;arttitle=category%3aengineering&amp;oldid=529720412&amp;writer=rl" title="download a pdf version of this wiki page" rel="nofollow">download as pdf</a></li><li id="t-print"><a href="/w/index.php?title=category:engineering&amp;printable=yes> <http://www.w3.org/2000/01/rdf-schema#label> "create a book or page collection" rel="nofollow">create a book</a></li><li id="coll-download-as-rl"><a href="/w/index.php?title=special:book&amp;bookcmd=render_article&amp;arttitle=category%3aengineering&amp;oldid=529720412&amp;writer=rl" title="download a pdf version of this wiki page" rel="nofollow">download as pdf</a></li><li id="t-print"><a href="/w/index.php?title=category:engineering&amp;printable=yes" title="printable version of this page [p]" accesskey="p"@en .
-<http://en.wikipedia.org//wikimediafoundation.org/wiki/privacy_policy> <http://www.w3.org/2000/01/rdf-schema#label> "wikimedia:privacy policy"@en .
-<http://en.wikipedia.org/wiki/wikipedia:about> <http://www.w3.org/2000/01/rdf-schema#label> "wikipedia:about"@en .
-<http://en.wikipedia.org/wiki/wikipedia:general_disclaimer> <http://www.w3.org/2000/01/rdf-schema#label> "wikipedia:general disclaimer"@en .
+<http://en.wikipedia.org/wiki/portal:engineering> <http://www.w3.org/2000/01/rdf-schema#label> "portal:engineering"@en

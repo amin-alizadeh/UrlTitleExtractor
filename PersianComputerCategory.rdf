@@ -1,0 +1,39 @@
+<http://fa.wikipedia.org/wiki/time.h> <http://www.w3.org/2000/01/rdf-schema#label> "time.h"@fa .
+<http://fa.wikipedia.org/wiki/آستانه_گذاری_هیستوگرام_متقارن> <http://www.w3.org/2000/01/rdf-schema#label> "آستانه گذاری هیستوگرام متقارن"@fa .
+<http://fa.wikipedia.org/wiki/اسکرام_(توسعه)> <http://www.w3.org/2000/01/rdf-schema#label> "اسکرام (توسعه)"@fa .
+<http://fa.wikipedia.org/wiki/ان‌_اس_(شبیه‌ساز)> <http://www.w3.org/2000/01/rdf-schema#label> "ان‌ اس (شبیه‌ساز)"@fa .
+<http://fa.wikipedia.org/wiki/ایستگاه_کاری> <http://www.w3.org/2000/01/rdf-schema#label> "ایستگاه کاری"@fa .
+<http://fa.wikipedia.org/wiki/تاریخچه_وب_جهان_گستر> <http://www.w3.org/2000/01/rdf-schema#label> "تاریخچه وب جهان گستر"@fa .
+<http://fa.wikipedia.org/wiki/حباب_(رایانه)> <http://www.w3.org/2000/01/rdf-schema#label> "حباب (رایانه)"@fa .
+<http://fa.wikipedia.org/wiki/خود-مدیریت> <http://www.w3.org/2000/01/rdf-schema#label> "خود-مدیریت"@fa .
+<http://fa.wikipedia.org/wiki/دسترسی‌پذیری_رایانه> <http://www.w3.org/2000/01/rdf-schema#label> "دسترسی‌پذیری رایانه"@fa .
+<http://fa.wikipedia.org/wiki/دستگاه_جانبی> <http://www.w3.org/2000/01/rdf-schema#label> "دستگاه جانبی"@fa .
+<http://fa.wikipedia.org/wiki/رایانه> <http://www.w3.org/2000/01/rdf-schema#label> "رایانه"@fa .
+<http://fa.wikipedia.org/wiki/سازگاری_عقبرو> <http://www.w3.org/2000/01/rdf-schema#label> "سازگاری عقبرو"@fa .
+<http://fa.wikipedia.org/wiki/شبکه_جامعه_جهانی> <http://www.w3.org/2000/01/rdf-schema#label> "شبکه جامعه جهانی"@fa .
+<http://fa.wikipedia.org/wiki/صفحه_نمایش_بریل> <http://www.w3.org/2000/01/rdf-schema#label> "صفحه نمایش بریل"@fa .
+<http://fa.wikipedia.org/wiki/فرآیند_تولید_نرم‌افزار> <http://www.w3.org/2000/01/rdf-schema#label> "فرآیند تولید نرم‌افزار"@fa .
+<http://fa.wikipedia.org/wiki/فرستنده_و_گیرنده_ناهمگام_جهانی> <http://www.w3.org/2000/01/rdf-schema#label> "فرستنده و گیرنده ناهمگام جهانی"@fa .
+<http://fa.wikipedia.org/wiki/فلاپس> <http://www.w3.org/2000/01/rdf-schema#label> "فلاپس"@fa .
+<http://fa.wikipedia.org/wiki/فلش_ویدئو> <http://www.w3.org/2000/01/rdf-schema#label> "فلش ویدئو"@fa .
+<http://fa.wikipedia.org/wiki/فهرست_پروتکل‌های_شبکه> <http://www.w3.org/2000/01/rdf-schema#label> "فهرست پروتکل‌های شبکه"@fa .
+<http://fa.wikipedia.org/wiki/فوجیتسو> <http://www.w3.org/2000/01/rdf-schema#label> "فوجیتسو"@fa .
+<http://fa.wikipedia.org/wiki/قلم_(رایانه)> <http://www.w3.org/2000/01/rdf-schema#label> "قلم (رایانه)"@fa .
+<http://fa.wikipedia.org/wiki/مجموعه_دستورهای_هایس> <http://www.w3.org/2000/01/rdf-schema#label> "مجموعه دستورهای هایس"@fa .
+<http://fa.wikipedia.org/wiki/مدل_وی_(فرآیند_تولید_نرم‌افزار)> <http://www.w3.org/2000/01/rdf-schema#label> "مدل وی (فرآیند تولید نرم‌افزار)"@fa .
+<http://fa.wikipedia.org/wiki/مگابایت> <http://www.w3.org/2000/01/rdf-schema#label> "مگابایت"@fa .
+<http://fa.wikipedia.org/wiki/مینی_ایمج> <http://www.w3.org/2000/01/rdf-schema#label> "مینی ایمج"@fa .
+<http://fa.wikipedia.org/wiki/هنر_الگوریتمی> <http://www.w3.org/2000/01/rdf-schema#label> "هنر الگوریتمی"@fa .
+<http://fa.wikipedia.org/wiki/واقعیت_رایانه‌ای> <http://www.w3.org/2000/01/rdf-schema#label> "واقعیت رایانه‌ای"@fa .
+<http://fa.wikipedia.org/wiki/وایزم> <http://www.w3.org/2000/01/rdf-schema#label> "وایزم"@fa .
+<http://fa.wikipedia.org/wiki/ویکی‌پدیا:ویکی‌پروژه_مدیریت_سیستم_های_اطلاعاتی_(mis)> <http://www.w3.org/2000/01/rdf-schema#label> "ویکی‌پدیا:ویکی‌پروژه مدیریت سیستم های اطلاعاتی (mis)"@fa .
+<http://fa.wikipedia.org/wiki/پردازش_تصویر> <http://www.w3.org/2000/01/rdf-schema#label> "پردازش تصویر"@fa .
+<http://fa.wikipedia.org/wiki/پس‌بر> <http://www.w3.org/2000/01/rdf-schema#label> "پس‌بر"@fa .
+<http://fa.wikipedia.org/wiki/چارچوب_توسعه_کاربردی_اوراکل> <http://www.w3.org/2000/01/rdf-schema#label> "چارچوب توسعه کاربردی اوراکل"@fa .
+<http://fa.wikipedia.org/wiki/کاربر_نهایی> <http://www.w3.org/2000/01/rdf-schema#label> "کاربر نهایی"@fa .
+<http://fa.wikipedia.org/wiki/کامپیوتر_ستبر> <http://www.w3.org/2000/01/rdf-schema#label> "کامپیوتر ستبر"@fa .
+<http://fa.wikipedia.org/wiki/کلید_درج_(رایانه)> <http://www.w3.org/2000/01/rdf-schema#label> "کلید درج (رایانه)"@fa .
+<http://fa.wikipedia.org/wiki/کنترل-آلت-دیلیت> <http://www.w3.org/2000/01/rdf-schema#label> "کنترل-آلت-دیلیت"@fa .
+<http://fa.wikipedia.org/wiki/کیلوبایت> <http://www.w3.org/2000/01/rdf-schema#label> "کیلوبایت"@fa .
+<http://fa.wikipedia.org/wiki/گروه_کارشناسان_تصویر_متحرک-۴> <http://www.w3.org/2000/01/rdf-schema#label> "گروه کارشناسان تصویر متحرک-۴"@fa .
+<http://fa.wikipedia.org/wiki/گیگابایت_(یکا)> <http://www.w3.org/2000/01/rdf-schema#label> "گیگابایت (یکا)"@fa .

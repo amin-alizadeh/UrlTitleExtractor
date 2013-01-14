@@ -1,0 +1,268 @@
+ hi
+[11:03:12] Amin Alizadeh: Hi Rupert.
+[11:03:31] Rupert Westenthaler: hi
+[11:03:41] Amin Alizadeh: I have some questions. I want to use a custom vocabulary list for stanbol.
+[11:04:01] Amin Alizadeh: I understood I need to first install stanbol entityhub, but the source doesn't exist
+[11:04:23] Rupert Westenthaler: The entityhub is included in all Stanbol launchers
+[11:05:06] Amin Alizadeh: I'm following this tutorial: http://stanbol.apache.org/docs/trunk/tutorial.html
+[11:05:27] Amin Alizadeh: but I can't run "stable/target/org.apache.stanbol.launchers.stable-{snapshot-version}-SNAPSHOT.jar"
+[11:05:38] Amin Alizadeh: it doesn't exist after I install
+[11:06:21] Rupert Westenthaler: you need to replace {snapshot-version} with the actual version
+[11:06:23] Rupert Westenthaler: or *
+[11:07:24] Amin Alizadeh: but there is no direcotry named "target" in launchers/stable
+[11:07:51] Rupert Westenthaler: than the mvn install must have failed
+[11:07:58] Rupert Westenthaler: currently the build in unstable
+[11:08:04] Rupert Westenthaler: so you might need to skip tests
+[11:08:20] Rupert Westenthaler: mvn -DskipTests clean install
+[11:08:41] Amin Alizadeh: should I remove everything and do all over again or I just run this command?
+[11:08:59] Rupert Westenthaler: just run this command in the stanbol folder
+[11:09:10] Rupert Westenthaler: clean … will delete all build artifacts
+[11:09:18] Rupert Westenthaler: intall … will recreate them
+[11:09:21] Amin Alizadeh: right!
+[11:09:59] Amin Alizadeh: and then the next question is about formatting the vocabularies. How do I add them?
+[11:10:29] Rupert Westenthaler: what do you mean with "formatting"
+[11:11:11] Amin Alizadeh: lets say  I have a list of vocabularies in a text file
+[11:11:17] Amin Alizadeh: one word per line
+[11:11:21] Amin Alizadeh: how to add them?
+[11:11:33] Rupert Westenthaler: you mean a list for labels
+[11:11:47] Rupert Westenthaler: you need to create Entities for those
+[11:12:09] Rupert Westenthaler: 1. each entity needs to have an unique ID (an URI)
+[11:12:22] Rupert Westenthaler: 2. you need to create a RDF triple for each word
+[11:12:38] Rupert Westenthaler: So if you have a line such as 
+
+"Paris"
+[11:17:13] Rupert Westenthaler: you need to create 
+
+<{uri}> <http://www.w3.org/2000/01/rdf-schema#label> "Paris" .
+[11:17:33] Rupert Westenthaler: see http://downloads.dbpedia.org/preview.php?file=3.8_sl_en_sl_labels_en.nt.bz2 as an example
+[11:17:51] Rupert Westenthaler: this is than valid RDF in N3 notation
+[11:18:43] Amin Alizadeh: alright. this is much more clear now :)
+[11:19:27] Amin Alizadeh: so when this is created, the entities are linked to the <uri> I inserted to the vocabulary list?
+[11:19:48] Rupert Westenthaler: yes
+[11:20:11] Rupert Westenthaler: you can than upload the data by setting the Content-Type header to "text/rdf+n3"
+[11:20:32] Rupert Westenthaler: either to the Entityhub or a ManagedSite
+[11:21:03] Rupert Westenthaler: for configuring and using ManagedSItes see http://stanbol.apache.org/docs/trunk/components/entityhub/managedsite.html
+[11:22:22] Amin Alizadeh: so i need to have a stanbol instance in my own server.
+[11:23:08] Amin Alizadeh: is it possible to configure in a way that i get both results from my own custom vocabularies and the default vocabulary list of stanbol?
+[11:27:08] Rupert Westenthaler: yes
+[11:27:52] Rupert Westenthaler: you just need to configure the Enhancement Chain to link against the default and your custom vocabularies
+[11:28:28] Rupert Westenthaler: e.g. http://dev.iks-project.eu:8081/enhancer/chain/default
+[11:28:45] Rupert Westenthaler: this links against DBpedia and ehealth
+[11:29:21] Rupert Westenthaler: the ehealth vocabulary is http://dev.iks-project.eu:8081/entityhub/site/ehealth/
+[11:30:31] Amin Alizadeh: great.
+[11:30:44] Amin Alizadeh: how can i change the port number? I'm already using 8080 for tomcat
+[11:31:56] Rupert Westenthaler: see http://sling.apache.org/site/the-sling-launchpad.html
+[11:32:03] Rupert Westenthaler: -p 	port
+[11:32:52] Amin Alizadeh: it's running now, but I got this error: ERROR: Bundle org.apache.stanbol.enhancer.engines.refactor [110]: Error starting slinginstall:org.apache.stanbol.enhancer.engines.refactor-0.10.0-SNAPSHOT.jar (org.osgi.framework.BundleException: Unresolved constraint in bundle org.apache.stanbol.enhancer.engines.refactor [110]: Unable to resolve 110.0: missing requirement [110.0] package; (&(package=org.apache.stanbol.ontologymanager.servicesapi.collector)(version>=0.10.0)(!(version>=1.0.0))))
+org.osgi.framework.BundleException: Unresolved constraint in bundle org.apache.stanbol.enhancer.engines.refactor [110]: Unable to resolve 110.0: missing requirement [110.0] package; (&(package=org.apache.stanbol.ontologymanager.servicesapi.collector)(version>=0.10.0)(!(version>=1.0.0)))
+	at org.apache.felix.framework.Felix.resolveBundle(Felix.java:3443)
+	at org.apache.felix.framework.Felix.startBundle(Felix.java:1727)
+	at org.apache.felix.framework.Felix.setActiveStartLevel(Felix.java:1156)
+	at org.apache.felix.framework.StartLevelImpl.run(StartLevelImpl.java:264)
+	at java.lang.Thread.run(Thread.java:679)
+[11:33:01] Rupert Westenthaler: just ignore this
+[11:33:05] Amin Alizadeh: alright
+[11:33:54] Rupert Westenthaler: this is because of https://issues.apache.org/jira/browse/STANBOL-533
+[11:34:40] Amin Alizadeh: alright. yes it's running now
+[11:36:13] Amin Alizadeh: so when I have the entities list/vocabularies how should I add to this instance?
+[11:37:03] Rupert Westenthaler: as soon as you have converted this to an RDF file you can use a simple POST (or PUT) request
+[11:37:38] Amin Alizadeh: and post to  http://localhost:8080/enhancer
+[11:37:57] Rupert Westenthaler: no
+[11:38:02] Rupert Westenthaler: to the Entityhub or a ManagedSite
+[11:39:03] Rupert Westenthaler: curl -i -X PUT -H "Content-Type: text/rdf+n3" -T {file.rdf} "http://localhost:8080/entityhub/entity"
+[11:39:59] Rupert Westenthaler: See the docu at http://localhost:8080/entityhub/entity
+[11:40:09] Rupert Westenthaler: ot the actual port you are now using
+[11:40:32] Amin Alizadeh: yes, well i installed it on a server, that's much faster than my local machine
+[11:40:54] Rupert Westenthaler: than you the server instead of localhost
+[11:41:14] Amin Alizadeh: http://5.9.86.210:8082/
+[11:41:49] Rupert Westenthaler: curl -i -X PUT -H "Content-Type: text/rdf+n3" -T {file.rdf} "http://5.9.86.210:8082/entityhub/entity"
+[11:42:02] Rupert Westenthaler: you just need to create the RDF file from you wordlist
+[11:42:48] Amin Alizadeh: right, thanks. it's been a great help.
+[11:44:22] Rupert Westenthaler: np
+[13:51:46] Amin Alizadeh: Hi Rupert. One more question. Is the vocabulary list language dependent? I mean is it possible to create a list in a different language and add it to the entityhub?
+[13:52:22] Rupert Westenthaler: you will need to generate the RDF fiel accordingly
+[13:53:05] Rupert Westenthaler: <{uri}> <http://www.w3.org/2000/01/rdf-schema#label> "{label}"@{lang} .
+<{uri}> <http://www.w3.org/2000/01/rdf-schema#label> "{label1}"@{lang1} .
+[13:53:35] Rupert Westenthaler: it is important to use the same {uri} for labels in different languages
+[13:53:36] Amin Alizadeh: what if the language doesn't already exist?
+[13:54:19] Rupert Westenthaler: The entityhub only supports the replacement of entities. It can not append
+[13:54:46] Rupert Westenthaler: so you will need to get the current data, add the new label and than update the whole Enitty
+[13:55:10] Amin Alizadeh: is there any tutorial for adding a new language?
+[15:56:20] Amin Alizadeh: Is there any way that the Stanbol Engine also enhances a text which is a mixture of more than one language?
+Wednesday, 9 January 2013
+[14:03:48] Rupert Westenthaler: you mean a single Text to stanbol uses multiple languages?
+[14:04:13] Rupert Westenthaler: Stanbol detects languages per Document
+[14:04:52] Rupert Westenthaler: so documents with multiple languages will be a problem
+[14:05:33] Rupert Westenthaler: However such a feature could be added. We just had no usecase requresting this up to now
+[14:10:11] Amin Alizadeh: Right. I want to see if it's possible to add NER for a new language to Stanbol. And whether this can be counted as a contribution!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Hi Rupert. I tried to PUT an RDF file in entityhub. but it returns "format unsupported"
+[10:33:13] Amin Alizadeh: and this is the file: 5.9.86.210:8080/PersianWikiComputer.rdf
+[10:45:43] Rupert Westenthaler: what accept header do you use?
+[10:58:29] Amin Alizadeh: curl -i -X PUT -H "Content-Type: text/rdf+n3" -T PersianWikiComputer.rdf "http://5.9.86.210:8082/entityhub/entity"
+[11:00:11] Rupert Westenthaler: can you post some lines of the file
+[11:00:42] Amin Alizadeh: <http://fa.wikipedia.org/wiki/del_(%d8%af%d8%b3%d8%aa%d9%88%d8%b1)> <http://www.w3.org/2000/01/rdf-schema#label> "del (دستور)"@fa .
+[11:01:09] Amin Alizadeh: it's in Persian
+[11:01:21] Rupert Westenthaler: ok
+[11:01:42] Amin Alizadeh: is it the right format?
+[11:01:49] Rupert Westenthaler: year this should work
+[11:02:28] Amin Alizadeh: I'll try again with some other rdf files.
+[11:05:41] Rupert Westenthaler: do you use the stable or the full launcher?
+[11:05:51] Amin Alizadeh: i use the stable
+[11:06:12] Amin Alizadeh: is that the problem?
+[11:08:53] Rupert Westenthaler: no
+[11:09:15] Rupert Westenthaler: I pushed the line you sent me to the dev.iks-project.eu:8080 server and it worked
+[11:09:30] Rupert Westenthaler: curl -i -X PUT -H "Content-Type: text/rdf+n3" -T test.nt "http://dev.iks-project.eu:8080/entityhub/entity"
+[11:09:48] Rupert Westenthaler: HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+Content-Length: 1637
+Server: Jetty(6.1.x)
+
+{
+    "id": "http:\/\/fa.wikipedia.org\/wiki\/del_(%d8%af%d8%b3%d8%aa%d9%88%d8%b1)",
+    "site": "entityhub",
+    "representation": {
+        "id": "http:\/\/fa.wikipedia.org\/wiki\/del_(%d8%af%d8%b3%d8%aa%d9%88%d8%b1)",
+        "http:\/\/www.w3.org\/2000\/01\/rdf-schema#label": [{
+            "type": "text",
+            "xml:lang": "fa",
+            "value": "del (دستور)"
+        }]
+    },
+    "metadata": {
+        "id": "http:\/\/fa.wikipedia.org\/wiki\/del_(%d8%af%d8%b3%d8%aa%d9%88%d8%b1).meta",
+        "http:\/\/purl.org\/dc\/terms\/modified": [{
+            "type": "value",
+            "value": "2013-01-10T10:05:27.415Z",
+            "xsd:datatype": "xsd:dateTime"
+        }],
+        "http:\/\/www.w3.org\/1999\/02\/22-rdf-syntax-ns#type": [{
+            "type": "reference",
+            "xsd:datatype": "xsd:anyURI",
+            "value": "http:\/\/xmlns.com\/foaf\/0.1\/Document"
+        }],
+        "http:\/\/purl.org\/dc\/terms\/created": [{
+            "type": "value",
+            "value": "2013-01-10T10:05:27.142Z",
+            "xsd:datatype": "xsd:dateTime"
+        }],
+        "http:\/\/stanbol.apache.org\/ontology\/entityhub\/entityhub#hasState": [{
+            "type": "reference",
+            "xsd:datatype": "xsd:anyURI",
+            "value": "http:\/\/stanbol.apache.org\/ontology\/entityhub\/entityhub#entityState-proposed"
+        }],
+        "http:\/\/stanbol.apache.org\/ontology\/entityhub\/entityhub#about": [{
+            "type": "reference",
+            "xsd:datatype": "xsd:anyURI",
+            "value": "http:\/\/fa.wikipedia.org\/wiki\/del_(%d8%af%d8%b3%d8%aa%d9%88%d8%b1)"
+        }]
+    }
+}
+[11:10:36] Amin Alizadeh: HTTP/1.1 100 Continue
+
+HTTP/1.1 500 Internal Server Error
+Accept: text/plain
+Content-Type: text/plain
+Transfer-Encoding: chunked
+Server: Jetty(6.1.x)
+
+Unable to create the Parser for the supported format text/rdf+n3 (com.hp.hpl.jena.n3.turtle.TurtleParseException: Lexical error at line 2, column 320.  Encountered: ">" (62), after : "")
+[11:11:21] Rupert Westenthaler: that means that some entiries of your file are illegal formatted
+[11:11:31] Rupert Westenthaler: the problem in in line 2
+[11:11:33] Rupert Westenthaler: of the file
+[11:11:43] Amin Alizadeh: I see
+[11:12:17] Amin Alizadeh: There is a "<" in that column. is it illegal?
+[11:18:25] Rupert Westenthaler: you need also to be carefull with URL encoding
+[11:18:42] Rupert Westenthaler: http://fa.wikipedia.org/wiki/del_(%d8%af%d8%b3%d8%aa%d9%88%d8%b1) is a really bas URL
+[11:18:58] Rupert Westenthaler: because '(' and ')' is not URL encoded
+[11:19:12] Rupert Westenthaler: the rest fo the arabic chars however is
+[11:21:31] Rupert Westenthaler: so eighter use
+[11:21:34] Rupert Westenthaler: http://fa.wikipedia.org/wiki/del_(دستور)
+[11:21:44] Rupert Westenthaler: <http://fa.wikipedia.org/wiki/del_(دستور)> <http://www.w3.org/2000/01/rdf-schema#label> "del (دستور)"@fa .
+[11:22:24] Amin Alizadeh: so they should be in arabic-persian characters instead of their codes like %d8
+[11:27:06] Rupert Westenthaler: I would need to read the documentations of the rdf+n3 serialization
+[11:28:39] Rupert Westenthaler: doc says you have to use the  \uXXXX encodings
+[11:28:48] Rupert Westenthaler: %XX is not supported
+[11:29:22] Rupert Westenthaler: this is also the reason why "http://fa.wikipedia.org/wiki/del_(%d8%af%d8%b3%d8%aa%d9%88%d8%b1)" does not correctly work
+[11:29:56] Rupert Westenthaler: as "http://fa.wikipedia.org/wiki/del_(دستور)" is correctly processed by Stanbol I would suggest to use directly the UTF-8 chars
+[11:30:27] Rupert Westenthaler: URLs with %XX are not decoded and therefore not acessible via the RESTful interface
+[11:32:01] Amin Alizadeh: OK. I can do that. but does it mean that if I add these entities to the entityhub and enter a text in Persian, it will return me the Named Entities based on this input?
+[11:33:31] Rupert Westenthaler: I am talking about URI based retrieval
+[11:34:30] Rupert Westenthaler: curl "http://dev.iks-project.eu:8080/entityhub/entity?id=http://fa.wikipedia.org/wiki/del_(دستور)"
+[11:34:41] Rupert Westenthaler: label based search is an other topic
+[11:36:09] Rupert Westenthaler: try
+curl -X POST -d "name=دستور&field=http://www.w3.org/2000/01/rdf-schema#label" http://dev.iks-project.eu:8080/entityhub/find
+[11:36:39] Amin Alizadeh: so could you tell me about that? what else do I need to do so when I enter a text in another language I can search for it and get that label?
+[11:38:09] Amin Alizadeh: the 'curl' request returns me a json string with the label and the link
+[11:38:31] Rupert Westenthaler: this is JSON-LD
+[11:39:37] Rupert Westenthaler: curl -X POST -H "Accept: text/rdf+n3" -d "name=دستور&field=http://www.w3.org/2000/01/rdf-schema#label" http://dev.iks-project.eu:8080/entityhub/find
+[11:39:50] Rupert Westenthaler: this will return you the data in rdf+n3
+[11:40:26] Rupert Westenthaler: NOTE: that currently there are 3 versions of your Entity in the Entityhub as I tried to add it with the %XX URIs for testing
+[11:40:49] Rupert Westenthaler: usually you would just get
+[11:40:50] Rupert Westenthaler: <http://fa.wikipedia.org/wiki/del_(دستور)>
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "del (دستور)"@fa ;
+      <http://stanbol.apache.org/ontology/entityhub/query#score>
+              "0.9747598"^^<http://www.w3.org/2001/XMLSchema#float> .
+[11:42:01] Rupert Westenthaler: <http://stanbol.apache.org/ontology/entityhub/query#QueryResultSet> <http://stanbol.apache.org/ontology/entityhub/query#query>
+              "{\"selected\":[\"http:\\/\\/stanbol.apache.org\\/ontology\\/entityhub\\/query#score\",\"http:\\/\\/www.w3.org\\/2000\\/01\\/rdf-schema#label\"],\"constraints\":[{\"type\":\"text\",\"patternType\":\"wildcard\",\"text\":\"دستور\",\"field\":\"http:\\/\\/www.w3.org\\/2000\\/01\\/rdf-schema#label\"}],\"limit\":5,\"offset\":0}"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://stanbol.apache.org/ontology/entityhub/query#queryResult>
+                <http://fa.wikipedia.org/wiki/del_(دستور)>
+[11:42:26] Rupert Westenthaler: the first part is the entity
+[11:42:51] Rupert Westenthaler: the 2nd part is the root resource  "<http://stanbol.apache.org/ontology/entityhub/query#QueryResultSet>" that links to all results
+[11:44:24] Rupert Westenthaler: but if you need this for a webpage you should have a look at https://github.com/szabyg/VIE.autocomplete
+[11:44:26] Amin Alizadeh: what are #query and #queryResult? Are they some queries based on which i can get some results?
+[11:45:11] Rupert Westenthaler: to get the query results you need to look for 
+    <http://stanbol.apache.org/ontology/entityhub/query#QueryResultSet> <http://stanbol.apache.org/ontology/entityhub/query#queryResult> *
+[11:45:34] Rupert Westenthaler: RDF frameworks typically have such a filter method
+[11:46:13] Rupert Westenthaler: Iterator<Resource> it = graph.filter("http://stanbol.apache.org/ontology/entityhub/query#QueryResultSet","http://stanbol.apache.org/ontology/entityhub/query#queryResult",null)
+[11:46:25] Rupert Westenthaler: it … would than be the iterator over the results
+[11:47:00] Rupert Westenthaler: If you like json more than use the default serialization
+[11:47:25] Rupert Westenthaler: you will find the results in the array of the "results" field
+[11:47:39] Rupert Westenthaler: with "id" used for the URI of the entity
+[11:50:26] Amin Alizadeh: so i get a json and then i can parse it and take the results!
+[11:51:19] Rupert Westenthaler: yes
+[11:51:54] Rupert Westenthaler: "Accept: application/json" will ensure that you are getting the JSON version
+[11:52:03] Rupert Westenthaler: but for now it is also the default
+[11:53:10] Amin Alizadeh: great.
+[11:53:21] Amin Alizadeh: but what happens if i want to enhance a text which is not in English?
+[11:53:45] Amin Alizadeh: does the stanbol engine return the labels in the other language?
+[11:58:03] Rupert Westenthaler: it returns the labels in the language as detected for the text
+[11:58:23] Rupert Westenthaler: so for an German text you will get German labels
+[11:59:01] Amin Alizadeh: what if the language is not in the supported languages as mentioned in your presentation?
+[11:59:10] Amin Alizadeh: or there's no dependency on it?
+[11:59:55] Rupert Westenthaler: the language detection will always provide a language. If the language is not recoqunised the detected language will be wrong
+[12:01:06] Rupert Westenthaler: Stanbol can process text in any language. By default a "whitespace" tokenizer is used. So for languages that use "whitespaces" for word bounderies you will have at least basic support
+[12:02:39] Amin Alizadeh: this is good. so you mean I will get results? am I right?
+[12:10:32] Rupert Westenthaler: I think so
+

@@ -1,0 +1,200 @@
+<http://fa.wikipedia.org/wiki/الگو:رایانه-خرد> <http://www.w3.org/2000/01/rdf-schema#label> "الگو:رایانه-خرد"@fa .
+<http://fa.wikipedia.org/wiki/cd_(دستور)> <http://www.w3.org/2000/01/rdf-schema#label> "cd (دستور)"@fa .
+<http://fa.wikipedia.org/wiki/copy> <http://www.w3.org/2000/01/rdf-schema#label> "copy"@fa .
+<http://fa.wikipedia.org/wiki/del_(دستور)> <http://www.w3.org/2000/01/rdf-schema#label> "del (دستور)"@fa .
+<http://fa.wikipedia.org/wiki/dev-c++> <http://www.w3.org/2000/01/rdf-schema#label> "dev-c++"@fa .
+<http://fa.wikipedia.org/wiki/dir> <http://www.w3.org/2000/01/rdf-schema#label> "dir"@fa .
+<http://fa.wikipedia.org/wiki/format> <http://www.w3.org/2000/01/rdf-schema#label> "format"@fa .
+<http://fa.wikipedia.org/wiki/ifconfig> <http://www.w3.org/2000/01/rdf-schema#label> "ifconfig"@fa .
+<http://fa.wikipedia.org/wiki/move> <http://www.w3.org/2000/01/rdf-schema#label> "move"@fa .
+<http://fa.wikipedia.org/wiki/ntldr> <http://www.w3.org/2000/01/rdf-schema#label> "ntldr"@fa .
+<http://fa.wikipedia.org/wiki/فهرست_نرم‌افزارهای_آزاد_و_متن‌باز> <http://www.w3.org/2000/01/rdf-schema#label> "فهرست نرم‌افزارهای آزاد و متن‌باز"@fa .
+<http://fa.wikipedia.org/wiki/serial_line_internet_protocol> <http://www.w3.org/2000/01/rdf-schema#label> "serial line internet protocol"@fa .
+<http://fa.wikipedia.org/wiki/z/os> <http://www.w3.org/2000/01/rdf-schema#label> "z/os"@fa .
+<http://fa.wikipedia.org/wiki/آموزشگاه_مجازی> <http://www.w3.org/2000/01/rdf-schema#label> "آموزشگاه مجازی"@fa .
+<http://fa.wikipedia.org/wiki/آی‌آپس> <http://www.w3.org/2000/01/rdf-schema#label> "آی‌آپس"@fa .
+<http://fa.wikipedia.org/wiki/آی‌پی‌کانفیگ> <http://www.w3.org/2000/01/rdf-schema#label> "آی‌پی‌کانفیگ"@fa .
+<http://fa.wikipedia.org/wiki/آی‌کلاد> <http://www.w3.org/2000/01/rdf-schema#label> "آی‌کلاد"@fa .
+<http://fa.wikipedia.org/wiki/ئی‌سی‌دی‌ال> <http://www.w3.org/2000/01/rdf-schema#label> "ئی‌سی‌دی‌ال"@fa .
+<http://fa.wikipedia.org/wiki/ادلین_(ویرایشگر)> <http://www.w3.org/2000/01/rdf-schema#label> "ادلین (ویرایشگر)"@fa .
+<http://fa.wikipedia.org/wiki/استحکام_گذرواژه> <http://www.w3.org/2000/01/rdf-schema#label> "استحکام گذرواژه"@fa .
+<http://fa.wikipedia.org/wiki/استخراج_ویژگی> <http://www.w3.org/2000/01/rdf-schema#label> "استخراج ویژگی"@fa .
+<http://fa.wikipedia.org/wiki/اسکی_(استاندارد)> <http://www.w3.org/2000/01/rdf-schema#label> "اسکی (استاندارد)"@fa .
+<http://fa.wikipedia.org/wiki/اعتبار_و_درستی‌سنجی> <http://www.w3.org/2000/01/rdf-schema#label> "اعتبار و درستی‌سنجی"@fa .
+<http://fa.wikipedia.org/wiki/افزایه> <http://www.w3.org/2000/01/rdf-schema#label> "افزایه"@fa .
+<http://fa.wikipedia.org/wiki/اف‌ام‌اس> <http://www.w3.org/2000/01/rdf-schema#label> "اف‌ام‌اس"@fa .
+<http://fa.wikipedia.org/wiki/الگوریتم_اقلیدس> <http://www.w3.org/2000/01/rdf-schema#label> "الگوریتم اقلیدس"@fa .
+<http://fa.wikipedia.org/wiki/الگوریتم_امضای_رقومی> <http://www.w3.org/2000/01/rdf-schema#label> "الگوریتم امضای رقومی"@fa .
+<http://fa.wikipedia.org/wiki/الگوریتم_جستجوی_کاشف> <http://www.w3.org/2000/01/rdf-schema#label> "الگوریتم جستجوی کاشف"@fa .
+<http://fa.wikipedia.org/wiki/الگوی_استخر_اشیاء> <http://www.w3.org/2000/01/rdf-schema#label> "الگوی استخر اشیاء"@fa .
+<http://fa.wikipedia.org/wiki/الگوی_متد_کارخانه_شی> <http://www.w3.org/2000/01/rdf-schema#label> "الگوی متد کارخانه شی"@fa .
+<http://fa.wikipedia.org/wiki/امنیت_رایانه‌ای> <http://www.w3.org/2000/01/rdf-schema#label> "امنیت رایانه‌ای"@fa .
+<http://fa.wikipedia.org/wiki/ام‌پی۴> <http://www.w3.org/2000/01/rdf-schema#label> "ام‌پی۴"@fa .
+<http://fa.wikipedia.org/wiki/انجمن_ماشین‌های_محاسب> <http://www.w3.org/2000/01/rdf-schema#label> "انجمن ماشین‌های محاسب"@fa .
+<http://fa.wikipedia.org/wiki/انشعاب_(توسعه_نرم‌افزار)> <http://www.w3.org/2000/01/rdf-schema#label> "انشعاب (توسعه نرم‌افزار)"@fa .
+<http://fa.wikipedia.org/wiki/اوتی‌آراس> <http://www.w3.org/2000/01/rdf-schema#label> "اوتی‌آراس"@fa .
+<http://fa.wikipedia.org/wiki/اوپا> <http://www.w3.org/2000/01/rdf-schema#label> "اوپا"@fa .
+<http://fa.wikipedia.org/wiki/اوپی‌ام‌ال> <http://www.w3.org/2000/01/rdf-schema#label> "اوپی‌ام‌ال"@fa .
+<http://fa.wikipedia.org/wiki/اپل_۲> <http://www.w3.org/2000/01/rdf-schema#label> "اپل ۲"@fa .
+<http://fa.wikipedia.org/wiki/اچ‌اس‌دی‌پی‌ای> <http://www.w3.org/2000/01/rdf-schema#label> "اچ‌اس‌دی‌پی‌ای"@fa .
+<http://fa.wikipedia.org/wiki/اچ‌تی‌ام‌ال> <http://www.w3.org/2000/01/rdf-schema#label> "اچ‌تی‌ام‌ال"@fa .
+<http://fa.wikipedia.org/wiki/اکتیوایکس> <http://www.w3.org/2000/01/rdf-schema#label> "اکتیوایکس"@fa .
+<http://fa.wikipedia.org/wiki/اکس‌کوئری> <http://www.w3.org/2000/01/rdf-schema#label> "اکس‌کوئری"@fa .
+<http://fa.wikipedia.org/wiki/ایزا_اسلات> <http://www.w3.org/2000/01/rdf-schema#label> "ایزا اسلات"@fa .
+<http://fa.wikipedia.org/wiki/اینتل> <http://www.w3.org/2000/01/rdf-schema#label> "اینتل"@fa .
+<http://fa.wikipedia.org/wiki/ای‌ام‌دی_کا۱۰> <http://www.w3.org/2000/01/rdf-schema#label> "ای‌ام‌دی کا۱۰"@fa .
+<http://fa.wikipedia.org/wiki/بارکننده_پیوندی> <http://www.w3.org/2000/01/rdf-schema#label> "بارکننده پیوندی"@fa .
+<http://fa.wikipedia.org/wiki/بارگیری_و_بارگذاری> <http://www.w3.org/2000/01/rdf-schema#label> "بارگیری و بارگذاری"@fa .
+<http://fa.wikipedia.org/wiki/بازراه‌اندازی> <http://www.w3.org/2000/01/rdf-schema#label> "بازراه‌اندازی"@fa .
+<http://fa.wikipedia.org/wiki/بازنشانی> <http://www.w3.org/2000/01/rdf-schema#label> "بازنشانی"@fa .
+<http://fa.wikipedia.org/wiki/باشگاه_کامپیوتر_هوم‌برو> <http://www.w3.org/2000/01/rdf-schema#label> "باشگاه کامپیوتر هوم‌برو"@fa .
+<http://fa.wikipedia.org/wiki/بانک_اطلاعات_اینترنتی_فیلم‌ها> <http://www.w3.org/2000/01/rdf-schema#label> "بانک اطلاعات اینترنتی فیلم‌ها"@fa .
+<http://fa.wikipedia.org/wiki/بایوس> <http://www.w3.org/2000/01/rdf-schema#label> "بایوس"@fa .
+<http://fa.wikipedia.org/wiki/برنامه_(رایانه)> <http://www.w3.org/2000/01/rdf-schema#label> "برنامه (رایانه)"@fa .
+<http://fa.wikipedia.org/wiki/برنامه‌سازی_مفرط> <http://www.w3.org/2000/01/rdf-schema#label> "برنامه‌سازی مفرط"@fa .
+<http://fa.wikipedia.org/wiki/برنامه‌نویس> <http://www.w3.org/2000/01/rdf-schema#label> "برنامه‌نویس"@fa .
+<http://fa.wikipedia.org/wiki/برنامه‌نویسی> <http://www.w3.org/2000/01/rdf-schema#label> "برنامه‌نویسی"@fa .
+<http://fa.wikipedia.org/wiki/برنامه‌نویسی_بر_پایه_پیش‌نمونه> <http://www.w3.org/2000/01/rdf-schema#label> "برنامه‌نویسی بر پایه پیش‌نمونه"@fa .
+<http://fa.wikipedia.org/wiki/برچسب‌زنی_اجزای_کلام> <http://www.w3.org/2000/01/rdf-schema#label> "برچسب‌زنی اجزای کلام"@fa .
+<http://fa.wikipedia.org/wiki/برگه‌های_سبک_آبشاری> <http://www.w3.org/2000/01/rdf-schema#label> "برگه‌های سبک آبشاری"@fa .
+<http://fa.wikipedia.org/wiki/بسته_(فناوری_اطلاعات)> <http://www.w3.org/2000/01/rdf-schema#label> "بسته (فناوری اطلاعات)"@fa .
+<http://fa.wikipedia.org/wiki/بسکام> <http://www.w3.org/2000/01/rdf-schema#label> "بسکام"@fa .
+<http://fa.wikipedia.org/wiki/بنیان_نمایش_ویندوز> <http://www.w3.org/2000/01/rdf-schema#label> "بنیان نمایش ویندوز"@fa .
+<http://fa.wikipedia.org/wiki/بیت_بر_ثانیه> <http://www.w3.org/2000/01/rdf-schema#label> "بیت بر ثانیه"@fa .
+<http://fa.wikipedia.org/wiki/بیسپ_معمولی> <http://www.w3.org/2000/01/rdf-schema#label> "بیسپ معمولی"@fa .
+<http://fa.wikipedia.org/wiki/بی‌زیپ۲> <http://www.w3.org/2000/01/rdf-schema#label> "بی‌زیپ۲"@fa .
+<http://fa.wikipedia.org/wiki/تاکس> <http://www.w3.org/2000/01/rdf-schema#label> "تاکس"@fa .
+<http://fa.wikipedia.org/wiki/تحلیل_واژگانی> <http://www.w3.org/2000/01/rdf-schema#label> "تحلیل واژگانی"@fa .
+<http://fa.wikipedia.org/wiki/ترابایت> <http://www.w3.org/2000/01/rdf-schema#label> "ترابایت"@fa .
+<http://fa.wikipedia.org/wiki/تریگر_پایگاه_داده> <http://www.w3.org/2000/01/rdf-schema#label> "تریگر پایگاه داده"@fa .
+<http://fa.wikipedia.org/wiki/تری‌دی‌اس‌مکس> <http://www.w3.org/2000/01/rdf-schema#label> "تری‌دی‌اس‌مکس"@fa .
+<http://fa.wikipedia.org/wiki/تزریق_نیازمندی> <http://www.w3.org/2000/01/rdf-schema#label> "تزریق نیازمندی"@fa .
+<http://fa.wikipedia.org/wiki/تشخیص_رایانه‌ای_امضا> <http://www.w3.org/2000/01/rdf-schema#label> "تشخیص رایانه‌ای امضا"@fa .
+<http://fa.wikipedia.org/wiki/تعویض_زمینه> <http://www.w3.org/2000/01/rdf-schema#label> "تعویض زمینه"@fa .
+<http://fa.wikipedia.org/wiki/توکن_امنیتی> <http://www.w3.org/2000/01/rdf-schema#label> "توکن امنیتی"@fa .
+<http://fa.wikipedia.org/wiki/تکرارگر> <http://www.w3.org/2000/01/rdf-schema#label> "تکرارگر"@fa .
+<http://fa.wikipedia.org/wiki/تکنوراتی> <http://www.w3.org/2000/01/rdf-schema#label> "تکنوراتی"@fa .
+<http://fa.wikipedia.org/wiki/تی‌ام‌اس> <http://www.w3.org/2000/01/rdf-schema#label> "تی‌ام‌اس"@fa .
+<http://fa.wikipedia.org/wiki/ثبات> <http://www.w3.org/2000/01/rdf-schema#label> "ثبات"@fa .
+<http://fa.wikipedia.org/wiki/ثبت_ورود> <http://www.w3.org/2000/01/rdf-schema#label> "ثبت ورود"@fa .
+<http://fa.wikipedia.org/wiki/جدول_نمادها> <http://www.w3.org/2000/01/rdf-schema#label> "جدول نمادها"@fa .
+<http://fa.wikipedia.org/wiki/جشنواره_نصب> <http://www.w3.org/2000/01/rdf-schema#label> "جشنواره نصب"@fa .
+<http://fa.wikipedia.org/wiki/جشنواره_و_نمایشگاه_ملی_رسانه‌های_دیجیتال> <http://www.w3.org/2000/01/rdf-schema#label> "جشنواره و نمایشگاه ملی رسانه‌های دیجیتال"@fa .
+<http://fa.wikipedia.org/wiki/جیتکس> <http://www.w3.org/2000/01/rdf-schema#label> "جیتکس"@fa .
+<http://fa.wikipedia.org/wiki/جیسون_(سکوی_توسعه_سامانه_های_چند_کارگزاری)> <http://www.w3.org/2000/01/rdf-schema#label> "جیسون (سکوی توسعه سامانه های چند کارگزاری)"@fa .
+<http://fa.wikipedia.org/wiki/جی‌ال‌اس> <http://www.w3.org/2000/01/rdf-schema#label> "جی‌ال‌اس"@fa .
+<http://fa.wikipedia.org/wiki/جی‌دابلیوام> <http://www.w3.org/2000/01/rdf-schema#label> "جی‌دابلیوام"@fa .
+<http://fa.wikipedia.org/wiki/جی‌پی‌ئی‌جی> <http://www.w3.org/2000/01/rdf-schema#label> "جی‌پی‌ئی‌جی"@fa .
+<http://fa.wikipedia.org/wiki/حافظه_(رایانه)> <http://www.w3.org/2000/01/rdf-schema#label> "حافظه (رایانه)"@fa .
+<http://fa.wikipedia.org/wiki/حافظه_تداعیگر> <http://www.w3.org/2000/01/rdf-schema#label> "حافظه تداعیگر"@fa .
+<http://fa.wikipedia.org/wiki/حافظه_دسترسی_تصادفی_ایستا> <http://www.w3.org/2000/01/rdf-schema#label> "حافظه دسترسی تصادفی ایستا"@fa .
+<http://fa.wikipedia.org/wiki/حافظه_دسترسی_تصادفی_موازی> <http://www.w3.org/2000/01/rdf-schema#label> "حافظه دسترسی تصادفی موازی"@fa .
+<http://fa.wikipedia.org/wiki/حافظه_مجازی> <http://www.w3.org/2000/01/rdf-schema#label> "حافظه مجازی"@fa .
+<http://fa.wikipedia.org/wiki/حالت_انتقال_ناهمگام> <http://www.w3.org/2000/01/rdf-schema#label> "حالت انتقال ناهمگام"@fa .
+<http://fa.wikipedia.org/wiki/حملات_تزریق_کد> <http://www.w3.org/2000/01/rdf-schema#label> "حملات تزریق کد"@fa .
+<http://fa.wikipedia.org/wiki/خوراک_وب> <http://www.w3.org/2000/01/rdf-schema#label> "خوراک وب"@fa .
+<http://fa.wikipedia.org/wiki/خوراک‌خوان> <http://www.w3.org/2000/01/rdf-schema#label> "خوراک‌خوان"@fa .
+<http://fa.wikipedia.org/wiki/درخت_کی‌دی> <http://www.w3.org/2000/01/rdf-schema#label> "درخت کی‌دی"@fa .
+<http://fa.wikipedia.org/wiki/دلیشز> <http://www.w3.org/2000/01/rdf-schema#label> "دلیشز"@fa .
+<http://fa.wikipedia.org/wiki/دژوو> <http://www.w3.org/2000/01/rdf-schema#label> "دژوو"@fa .
+<http://fa.wikipedia.org/wiki/دکمه_بازنشانی> <http://www.w3.org/2000/01/rdf-schema#label> "دکمه بازنشانی"@fa .
+<http://fa.wikipedia.org/wiki/دیمن_(نرم‌افزار)> <http://www.w3.org/2000/01/rdf-schema#label> "دیمن (نرم‌افزار)"@fa .
+<http://fa.wikipedia.org/wiki/دینامو> <http://www.w3.org/2000/01/rdf-schema#label> "دینامو"@fa .
+<http://fa.wikipedia.org/wiki/دیواربرگ_(رایانه)> <http://www.w3.org/2000/01/rdf-schema#label> "دیواربرگ (رایانه)"@fa .
+<http://fa.wikipedia.org/wiki/دیواره_(برنامه‌نویسی)> <http://www.w3.org/2000/01/rdf-schema#label> "دیواره (برنامه‌نویسی)"@fa .
+<http://fa.wikipedia.org/wiki/دیواکس> <http://www.w3.org/2000/01/rdf-schema#label> "دیواکس"@fa .
+<http://fa.wikipedia.org/wiki/دی‌اچ‌تی‌ام‌ال> <http://www.w3.org/2000/01/rdf-schema#label> "دی‌اچ‌تی‌ام‌ال"@fa .
+<http://fa.wikipedia.org/wiki/رابط_دیجیتالی_سازهای_موسیقی> <http://www.w3.org/2000/01/rdf-schema#label> "رابط دیجیتالی سازهای موسیقی"@fa .
+<http://fa.wikipedia.org/wiki/راه‌انداز> <http://www.w3.org/2000/01/rdf-schema#label> "راه‌انداز"@fa .
+<http://fa.wikipedia.org/wiki/رایانش_توزیع‌شده> <http://www.w3.org/2000/01/rdf-schema#label> "رایانش توزیع‌شده"@fa .
+<http://fa.wikipedia.org/wiki/رایانش_خودمختار> <http://www.w3.org/2000/01/rdf-schema#label> "رایانش خودمختار"@fa .
+<http://fa.wikipedia.org/wiki/رایانش_موازی> <http://www.w3.org/2000/01/rdf-schema#label> "رایانش موازی"@fa .
+<http://fa.wikipedia.org/wiki/رایانه_بزرگ> <http://www.w3.org/2000/01/rdf-schema#label> "رایانه بزرگ"@fa .
+<http://fa.wikipedia.org/wiki/رایانه_سی‌ای‌آر> <http://www.w3.org/2000/01/rdf-schema#label> "رایانه سی‌ای‌آر"@fa .
+<http://fa.wikipedia.org/wiki/رایانه_شخصی> <http://www.w3.org/2000/01/rdf-schema#label> "رایانه شخصی"@fa .
+<http://fa.wikipedia.org/wiki/رایانه_کوانتومی> <http://www.w3.org/2000/01/rdf-schema#label> "رایانه کوانتومی"@fa .
+<http://fa.wikipedia.org/wiki/رایانه_کوچک> <http://www.w3.org/2000/01/rdf-schema#label> "رایانه کوچک"@fa .
+<http://fa.wikipedia.org/wiki/ردهت> <http://www.w3.org/2000/01/rdf-schema#label> "ردهت"@fa .
+<http://fa.wikipedia.org/wiki/رشته_(علوم_رایانه)> <http://www.w3.org/2000/01/rdf-schema#label> "رشته (علوم رایانه)"@fa .
+<http://fa.wikipedia.org/wiki/رویه_(برنامه‌سازی_رایانه)> <http://www.w3.org/2000/01/rdf-schema#label> "رویه (برنامه‌سازی رایانه)"@fa .
+<http://fa.wikipedia.org/wiki/رکورد_راه_انداز_اصلی> <http://www.w3.org/2000/01/rdf-schema#label> "رکورد راه انداز اصلی"@fa .
+<http://fa.wikipedia.org/wiki/ریزبرنامه‌سازی> <http://www.w3.org/2000/01/rdf-schema#label> "ریزبرنامه‌سازی"@fa .
+<http://fa.wikipedia.org/wiki/زباله_جمع‌کن_(علوم_رایانه)> <http://www.w3.org/2000/01/rdf-schema#label> "زباله جمع‌کن (علوم رایانه)"@fa .
+<http://fa.wikipedia.org/wiki/زبان_توصیف_واسط> <http://www.w3.org/2000/01/rdf-schema#label> "زبان توصیف واسط"@fa .
+<http://fa.wikipedia.org/wiki/زیراکس_آلتو> <http://www.w3.org/2000/01/rdf-schema#label> "زیراکس آلتو"@fa .
+<http://fa.wikipedia.org/wiki/ساب‌سونیک> <http://www.w3.org/2000/01/rdf-schema#label> "ساب‌سونیک"@fa .
+<http://fa.wikipedia.org/wiki/ساختار_فایل‌های_اجرایی> <http://www.w3.org/2000/01/rdf-schema#label> "ساختار فایل‌های اجرایی"@fa .
+<http://fa.wikipedia.org/wiki/سازگار_با_آی‌بی‌ام> <http://www.w3.org/2000/01/rdf-schema#label> "سازگار با آی‌بی‌ام"@fa .
+<http://fa.wikipedia.org/wiki/سازگاری_عقبرو> <http://www.w3.org/2000/01/rdf-schema#label> "سازگاری عقبرو"@fa .
+<http://fa.wikipedia.org/wiki/سامانه_مدیریت_پایگاه_داده‌ها> <http://www.w3.org/2000/01/rdf-schema#label> "سامانه مدیریت پایگاه داده‌ها"@fa .
+<http://fa.wikipedia.org/wiki/سخت‌افزار_رایانه> <http://www.w3.org/2000/01/rdf-schema#label> "سخت‌افزار رایانه"@fa .
+<http://fa.wikipedia.org/wiki/سرفیس> <http://www.w3.org/2000/01/rdf-schema#label> "سرفیس"@fa .
+<http://fa.wikipedia.org/wiki/سرور_(رایانه)> <http://www.w3.org/2000/01/rdf-schema#label> "سرور (رایانه)"@fa .
+<http://fa.wikipedia.org/wiki/سرور_کاربردی> <http://www.w3.org/2000/01/rdf-schema#label> "سرور کاربردی"@fa .
+<http://fa.wikipedia.org/wiki/سفت‌افزار> <http://www.w3.org/2000/01/rdf-schema#label> "سفت‌افزار"@fa .
+<http://fa.wikipedia.org/wiki/سیستم‌عامل> <http://www.w3.org/2000/01/rdf-schema#label> "سیستم‌عامل"@fa .
+<http://fa.wikipedia.org/wiki/سیستم‌عامل_شبکه> <http://www.w3.org/2000/01/rdf-schema#label> "سیستم‌عامل شبکه"@fa .
+<http://fa.wikipedia.org/wiki/سیمیولینک> <http://www.w3.org/2000/01/rdf-schema#label> "سیمیولینک"@fa .
+<http://fa.wikipedia.org/wiki/سینتلا> <http://www.w3.org/2000/01/rdf-schema#label> "سینتلا"@fa .
+<http://fa.wikipedia.org/wiki/شبکه_عصبی_مصنوعی> <http://www.w3.org/2000/01/rdf-schema#label> "شبکه عصبی مصنوعی"@fa .
+<http://fa.wikipedia.org/wiki/شل_(رایانه)> <http://www.w3.org/2000/01/rdf-schema#label> "شل (رایانه)"@fa .
+<http://fa.wikipedia.org/wiki/شمارنده_برنامه> <http://www.w3.org/2000/01/rdf-schema#label> "شمارنده برنامه"@fa .
+<http://fa.wikipedia.org/wiki/صفحه_نمایش_رتینا> <http://www.w3.org/2000/01/rdf-schema#label> "صفحه نمایش رتینا"@fa .
+<http://fa.wikipedia.org/wiki/صفحه‌کلید_فارسی> <http://www.w3.org/2000/01/rdf-schema#label> "صفحه‌کلید فارسی"@fa .
+<http://fa.wikipedia.org/wiki/ضدویروس_ایمن> <http://www.w3.org/2000/01/rdf-schema#label> "ضدویروس ایمن"@fa .
+<http://fa.wikipedia.org/wiki/طراحی_رایانه‌ای> <http://www.w3.org/2000/01/rdf-schema#label> "طراحی رایانه‌ای"@fa .
+<http://fa.wikipedia.org/wiki/طراحی_پردازنده> <http://www.w3.org/2000/01/rdf-schema#label> "طراحی پردازنده"@fa .
+<http://fa.wikipedia.org/wiki/عامل_نرم‌افزاری> <http://www.w3.org/2000/01/rdf-schema#label> "عامل نرم‌افزاری"@fa .
+<http://fa.wikipedia.org/wiki/عبارت_باقاعده> <http://www.w3.org/2000/01/rdf-schema#label> "عبارت باقاعده"@fa .
+<http://fa.wikipedia.org/wiki/علوم_نظری_رایانه> <http://www.w3.org/2000/01/rdf-schema#label> "علوم نظری رایانه"@fa .
+<http://fa.wikipedia.org/wiki/فایل‌میکر> <http://www.w3.org/2000/01/rdf-schema#label> "فایل‌میکر"@fa .
+<http://fa.wikipedia.org/wiki/فرآیند_(رایانه)> <http://www.w3.org/2000/01/rdf-schema#label> "فرآیند (رایانه)"@fa .
+<http://fa.wikipedia.org/wiki/فراوانی_وزنی_تی‌اف‌-آی‌دی‌اف> <http://www.w3.org/2000/01/rdf-schema#label> "فراوانی وزنی تی‌اف‌-آی‌دی‌اف"@fa .
+<http://fa.wikipedia.org/wiki/فرمان> <http://www.w3.org/2000/01/rdf-schema#label> "فرمان"@fa .
+<http://fa.wikipedia.org/wiki/فریم‌بافر> <http://www.w3.org/2000/01/rdf-schema#label> "فریم‌بافر"@fa .
+<http://fa.wikipedia.org/wiki/فشرده‌سازی_با_اتلاف> <http://www.w3.org/2000/01/rdf-schema#label> "فشرده‌سازی با اتلاف"@fa .
+<http://fa.wikipedia.org/wiki/فشرده‌سازی_بی‌اتلاف_داده‌ها> <http://www.w3.org/2000/01/rdf-schema#label> "فشرده‌سازی بی‌اتلاف داده‌ها"@fa .
+<http://fa.wikipedia.org/wiki/فضای_نام_(علوم_رایانه)> <http://www.w3.org/2000/01/rdf-schema#label> "فضای نام (علوم رایانه)"@fa .
+<http://fa.wikipedia.org/wiki/فضای_نام_اکس‌ام‌ال> <http://www.w3.org/2000/01/rdf-schema#label> "فضای نام اکس‌ام‌ال"@fa .
+<http://fa.wikipedia.org/wiki/فلاپس> <http://www.w3.org/2000/01/rdf-schema#label> "فلاپس"@fa .
+<http://fa.wikipedia.org/wiki/فهرست_مجله‌های_رایانه> <http://www.w3.org/2000/01/rdf-schema#label> "فهرست مجله‌های رایانه"@fa .
+<http://fa.wikipedia.org/wiki/فهرست_محصولات_ادوبی> <http://www.w3.org/2000/01/rdf-schema#label> "فهرست محصولات ادوبی"@fa .
+<http://fa.wikipedia.org/wiki/فهرست_محصولات_مایکروسافت> <http://www.w3.org/2000/01/rdf-schema#label> "فهرست محصولات مایکروسافت"@fa .
+<http://fa.wikipedia.org/wiki/فهرست_نرم‌افزارهای_مایکروسافت> <http://www.w3.org/2000/01/rdf-schema#label> "فهرست نرم‌افزارهای مایکروسافت"@fa .
+<http://fa.wikipedia.org/wiki/فورترن> <http://www.w3.org/2000/01/rdf-schema#label> "فورترن"@fa .
+<http://fa.wikipedia.org/wiki/فیبر_مدار_چاپی> <http://www.w3.org/2000/01/rdf-schema#label> "فیبر مدار چاپی"@fa .
+<http://fa.wikipedia.org/wiki/قاست‌بی‌اس‌دی> <http://www.w3.org/2000/01/rdf-schema#label> "قاست‌بی‌اس‌دی"@fa .
+<http://fa.wikipedia.org/wiki/قالب_پرونده> <http://www.w3.org/2000/01/rdf-schema#label> "قالب پرونده"@fa .
+<http://fa.wikipedia.org/wiki/قرارداد_هدایت_انتقال> <http://www.w3.org/2000/01/rdf-schema#label> "قرارداد هدایت انتقال"@fa .
+<http://fa.wikipedia.org/wiki/لوح_فشرده_زنده> <http://www.w3.org/2000/01/rdf-schema#label> "لوح فشرده زنده"@fa .
+<http://fa.wikipedia.org/wiki/لوح‌رایانه_قدیمی> <http://www.w3.org/2000/01/rdf-schema#label> "لوح‌رایانه قدیمی"@fa .
+<http://fa.wikipedia.org/wiki/لینک_(برنامه‌نویسی)> <http://www.w3.org/2000/01/rdf-schema#label> "لینک (برنامه‌نویسی)"@fa .
+<http://fa.wikipedia.org/wiki/مادیران> <http://www.w3.org/2000/01/rdf-schema#label> "مادیران"@fa .
+<http://fa.wikipedia.org/wiki/ماشین_بردار_پشتیبانی> <http://www.w3.org/2000/01/rdf-schema#label> "ماشین بردار پشتیبانی"@fa .
+<http://fa.wikipedia.org/wiki/مایکروسافت_استیودنت> <http://www.w3.org/2000/01/rdf-schema#label> "مایکروسافت استیودنت"@fa .
+<http://fa.wikipedia.org/wiki/مایکروسافت_اسمبلر> <http://www.w3.org/2000/01/rdf-schema#label> "مایکروسافت اسمبلر"@fa .
+<http://fa.wikipedia.org/wiki/مایکروسافت_مث> <http://www.w3.org/2000/01/rdf-schema#label> "مایکروسافت مث"@fa .
+<http://fa.wikipedia.org/wiki/مایکروسافت_ویرچوال_پی‌سی> <http://www.w3.org/2000/01/rdf-schema#label> "مایکروسافت ویرچوال پی‌سی"@fa .
+<http://fa.wikipedia.org/wiki/متغیر_(برنامه‌نویسی)> <http://www.w3.org/2000/01/rdf-schema#label> "متغیر (برنامه‌نویسی)"@fa .
+<http://fa.wikipedia.org/wiki/متغیرهای_رشته‌ای_کوتاه> <http://www.w3.org/2000/01/rdf-schema#label> "متغیرهای رشته‌ای کوتاه"@fa .
+<http://fa.wikipedia.org/wiki/مجموعه_دستورالعمل> <http://www.w3.org/2000/01/rdf-schema#label> "مجموعه دستورالعمل"@fa .
+<http://fa.wikipedia.org/wiki/محاسبات_نرم> <http://www.w3.org/2000/01/rdf-schema#label> "محاسبات نرم"@fa .
+<http://fa.wikipedia.org/wiki/محافظ_صفحه_نمایش> <http://www.w3.org/2000/01/rdf-schema#label> "محافظ صفحه نمایش"@fa .
+<http://fa.wikipedia.org/wiki/مدل_رنگ_ال‌ای‌بی> <http://www.w3.org/2000/01/rdf-schema#label> "مدل رنگ ال‌ای‌بی"@fa .
+<http://fa.wikipedia.org/wiki/مدل_کارخواه-کارساز> <http://www.w3.org/2000/01/rdf-schema#label> "مدل کارخواه-کارساز"@fa .
+<http://fa.wikipedia.org/wiki/مدیر_پرونده> <http://www.w3.org/2000/01/rdf-schema#label> "مدیر پرونده"@fa .
+<http://fa.wikipedia.org/wiki/مدیر_پنجره> <http://www.w3.org/2000/01/rdf-schema#label> "مدیر پنجره"@fa .
+<http://fa.wikipedia.org/wiki/مدیر_پنجره_پشته‌ای> <http://www.w3.org/2000/01/rdf-schema#label> "مدیر پنجره پشته‌ای"@fa .
+<http://fa.wikipedia.org/wiki/مرتب‌سازی_خسته_کننده> <http://www.w3.org/2000/01/rdf-schema#label> "مرتب‌سازی خسته کننده"@fa .
+<http://fa.wikipedia.org/wiki/مرورگر_وب> <http://www.w3.org/2000/01/rdf-schema#label> "مرورگر وب"@fa .
+<http://fa.wikipedia.org/wiki/مسئله_برابری_پی_و_ان‌پی> <http://www.w3.org/2000/01/rdf-schema#label> "مسئله برابری پی و ان‌پی"@fa .
+<http://fa.wikipedia.org/wiki/مسئله_زیرآرایه_بیشینه> <http://www.w3.org/2000/01/rdf-schema#label> "مسئله زیرآرایه بیشینه"@fa .
+<http://fa.wikipedia.org/wiki/مسیریابی_پیازی> <http://www.w3.org/2000/01/rdf-schema#label> "مسیریابی پیازی"@fa .
+<http://fa.wikipedia.org/wiki/معماری_شبکه> <http://www.w3.org/2000/01/rdf-schema#label> "معماری شبکه"@fa .
+<http://fa.wikipedia.org/wiki/معماری_فون_نویمان> <http://www.w3.org/2000/01/rdf-schema#label> "معماری فون نویمان"@fa .
+<http://fa.wikipedia.org/wiki/مقداردهی_ابتدایی_(رایانه)> <http://www.w3.org/2000/01/rdf-schema#label> "مقداردهی ابتدایی (رایانه)"@fa .
+<http://fa.wikipedia.org/wiki/مهندسی_دانش> <http://www.w3.org/2000/01/rdf-schema#label> "مهندسی دانش"@fa .
+<http://fa.wikipedia.org/wiki/مهندسی_سخت‌افزار> <http://www.w3.org/2000/01/rdf-schema#label> "مهندسی سخت‌افزار"@fa .
+<http://fa.wikipedia.org/wiki/مهندسی_کامپیوتر> <http://www.w3.org/2000/01/rdf-schema#label> "مهندسی کامپیوتر"@fa .
+<http://fa.wikipedia.org/wiki/موتور_جی‌مانکی> <http://www.w3.org/2000/01/rdf-schema#label> "موتور جی‌مانکی"@fa .
+<http://fa.wikipedia.org/wiki/موتور_نرم‌افزاری> <http://www.w3.org/2000/01/rdf-schema#label> "موتور نرم‌افزاری"@fa .

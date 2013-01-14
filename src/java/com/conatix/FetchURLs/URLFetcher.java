@@ -1,24 +1,34 @@
 package com.conatix.FetchURLs;
 
 import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.DataOutputStream;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.io.InputStreamReader;
+import java.io.OutputStreamWriter;
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
+import java.net.ProtocolException;
 import java.net.URL;
+import java.net.URLDecoder;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class URLFetcher {
+	static String validateUrl = "http://fa.wikipedia.org";
+	static String url = "http://fa.wikipedia.org/wiki/%D8%B1%D8%AF%D9%87:%D9%85%D9%87%D9%86%D8%AF%D8%B3%DB%8C";
+	static String format = "<http://www.w3.org/2000/01/rdf-schema#label>";
+	static String language = "fa";
+	static String fileName = "wikis/PersianMeasurement.rdf";
+	static boolean append = false;
 
-	public static void main(String[] args) {
-		String validateUrl = "http://en.wikipedia.org";
-		String url = "http://en.wikipedia.org/wiki/Category:Engineering";
-		String format = "<http://www.w3.org/2000/01/rdf-schema#label>";
-		String language = "en";
-		String fileName = "EnglishWikiEnginnering.rdf";
-		boolean append = false;
+	@SuppressWarnings("unused")
+	public static void main(String[] args) throws IOException {
+
+		url = "http://fa.wikipedia.org/wiki/%D8%B1%D8%AF%D9%87:%D8%A7%D9%86%D8%AF%D8%A7%D8%B2%D9%87%E2%80%8C%DA%AF%DB%8C%D8%B1%DB%8C";
 
 		for (int i = 0; i < args.length; i++) {
 			if ("-url".equals(args[i])) {
@@ -42,49 +52,170 @@ public class URLFetcher {
 			}
 		}
 
-		String siteContent = getUrlContent(url);
+		// startFetchWiki();
+		String stanbolUrl = "http://5.9.86.210:8082/entityhub/entity";
+		String type = "PUT";
+		String contentType = "text/rdf+n3";
+		String reqbody = "<http://fa.wikipedia.org/wiki/آنگولا> <http://www.w3.org/2000/01/rdf-schema#label> \"آنگولا\"@fa .";
 
-		String subCategoriesContent = getMWsubCategories(siteContent);
-		ListOfTitlesUrls categoriesNUrls = new ListOfTitlesUrls();
-		categoriesNUrls = getTitlesAndUrls(subCategoriesContent);
-		
+		String result = null;
+
+		try {
+			HttpURLConnection stanbolCon = getHttpConnection(stanbolUrl, type,
+					contentType);
+			// you can add any request body here if you want to post
+			if (reqbody != null) {
+				stanbolCon.setDoInput(true);
+				stanbolCon.setDoOutput(true);
+				DataOutputStream out = new DataOutputStream(
+						stanbolCon.getOutputStream());
+				out.writeBytes(reqbody);
+				out.flush();
+				out.close();
+				System.out.println(reqbody);
+			}
+			
+			stanbolCon.connect();
+			BufferedReader in = new BufferedReader(new InputStreamReader(stanbolCon.getInputStream()));
+			String temp = null;
+			StringBuilder sb = new StringBuilder();
+			while ((temp = in.readLine()) != null) {
+				sb.append(temp).append(" ");
+			}
+			result = sb.toString();
+			in.close();
+			System.out.println(result);
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		System.out.println("RESULT = " + result);
+	}
+
+	private static HttpURLConnection getHttpConnection(String url, String type,
+			String contentType) {
+		URL uri = null;
+		HttpURLConnection con = null;
+		try {
+			uri = new URL(url);
+			con = (HttpURLConnection) uri.openConnection();
+			con.setRequestMethod(type); // type: POST, PUT, DELETE, GET
+			con.setDoOutput(true);
+			con.setDoInput(true);
+			con.setConnectTimeout(60000); // 60 secs
+			con.setReadTimeout(60000); // 60 secs
+			con.setRequestProperty("Content-Type", contentType);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+
+		return con;
+	}
+
+	private static void httpPUTRequest() throws IOException {
+		URL reqUrl = new URL("http://5.9.86.210:8082/entityhub/entity");
+		HttpURLConnection httpCon = (HttpURLConnection) reqUrl.openConnection();
+		httpCon.setDoOutput(true);
+		httpCon.setRequestMethod("PUT");
+		OutputStreamWriter out = new OutputStreamWriter(
+				httpCon.getOutputStream());
+		out.write("Resource content");
+		out.close();
+	}
+
+	private static void startFetchWiki() {
+
+		ListOfTitlesUrls listTitlesNUrls = new ListOfTitlesUrls();
+
+		// listTitlesNUrls = getLisUrls(siteContent);
+		//
+		// List<String> validListUrls = makeValidURLs(listTitlesNUrls.allUrls,
+		// validateUrl);
+		// ListOfTitlesUrls validatedTitlesUrls = new ListOfTitlesUrls();
+		// validatedTitlesUrls.allTitles.addAll(listTitlesNUrls.allTitles);
+		// validatedTitlesUrls.allUrls.addAll(validListUrls);
+		//
+		// RDFFile rdfStanbol = new RDFFile(format, language,
+		// validatedTitlesUrls.allTitles, validatedTitlesUrls.allUrls);
+		// rdfStanbol.saveRDFFile(fileName);
+		// System.out.println(rdfStanbol.toString());
+
+		// String subCategoriesContent = getMWsubCategories(siteContent);
+		// ListOfTitlesUrls categoriesNUrls = new ListOfTitlesUrls();
+		// categoriesNUrls = getTitlesAndUrls(subCategoriesContent);
+		String siteContent = getUrlContent(url);
 		String subPagesContent = getMWSubPages(siteContent);
 		ListOfTitlesUrls pagesNUrls = new ListOfTitlesUrls();
 		pagesNUrls = getTitlesAndUrls(subPagesContent);
-		
-		List<String> validCategoriesURLs = makeValidURLs(categoriesNUrls.allUrls, validateUrl);
-		List<String> validPagesURLs = makeValidURLs(pagesNUrls.allUrls, validateUrl);
-		
-		ListOfTitlesUrls validatedCategoriesAndUrls = new ListOfTitlesUrls();
-		validatedCategoriesAndUrls.allTitles.addAll(categoriesNUrls.allTitles);
-		validatedCategoriesAndUrls.allUrls.addAll(validCategoriesURLs);
-		
+
+		List<String> validPagesURLs = makeValidURLs(pagesNUrls.allUrls,
+				validateUrl);
 		ListOfTitlesUrls validatedPagesAndUrls = new ListOfTitlesUrls();
 		validatedPagesAndUrls.allTitles.addAll(pagesNUrls.allTitles);
 		validatedPagesAndUrls.allUrls.addAll(validPagesURLs);
-		
-//		System.out.println("Titles size: " + validatedCategoriesAndUrls.allTitles.size() + " URL size: " + validatedCategoriesAndUrls.allUrls.size() + " get size: " + validatedCategoriesAndUrls.size());
-		
-//		System.out.println(validatedCategoriesAndUrls.toString());
-
-		RDFFile stanbolRDF = new RDFFile(format, language, validatedPagesAndUrls.allTitles, validatedPagesAndUrls.allUrls);
+		RDFFile stanbolRDF = new RDFFile(format, language,
+				validatedPagesAndUrls.allTitles, validatedPagesAndUrls.allUrls);
 		System.out.println(stanbolRDF.toString());
 		stanbolRDF.saveRDFFile(fileName);
-		// RDFFile stanbolRDF = new RDFFile(format, language,
-		// titlesNUrls.allTitles, titlesNUrls.allUrls);
-		// stanbolRDF.saveRDFFile();
+
 	}
 
-	private static List<String> makeValidURLs(List<String> allUrls, String webUrl) {
+	private static ListOfTitlesUrls getLisUrls(String siteContent) {
+		// <li><span class="flagicon"><img alt="flag of azerbaijan.svg"
+		// src="//upload.wikimedia.org/wikipedia/commons/thumb/d/dd/flag_of_azerbaijan.svg/22px-flag_of_azerbaijan.svg.png"
+		// width="22" height="11" class="thumbborder"
+		// srcset="//upload.wikimedia.org/wikipedia/commons/thumb/d/dd/flag_of_azerbaijan.svg/33px-flag_of_azerbaijan.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/d/dd/flag_of_azerbaijan.svg/44px-flag_of_azerbaijan.svg.png 2x"
+		// />&#160;</span><a
+		// href="/wiki/%d8%ac%d9%85%d9%87%d9%88%d8%b1%db%8c_%d8%a2%d8%b0%d8%b1%d8%a8%d8%a7%db%8c%d8%ac%d8%a7%d9%86"
+		// title="جمهوری آذربایجان">جمهوری آذربایجان</a></li>
+
+		List<String> allTitles = new ArrayList<String>();
+		List<String> allUrls = new ArrayList<String>();
+		ListOfTitlesUrls subTitlesNUrls = new ListOfTitlesUrls();
+
+		Pattern pLi = Pattern
+				.compile("<li>.*<a\\s.*href=\".*\".*>.*</a>.*</li>");
+		Matcher mLi = pLi.matcher(siteContent);
+		String listContent = "";
+		String hrefURL, title;
+		Pattern pTU = Pattern.compile("<a\\s.*href=\".*\".*</a>");
+		while (mLi.find()) {
+			listContent = mLi.group();
+			Matcher matchTU = pTU.matcher(listContent);
+			String tag = "";
+			while (matchTU.find())
+				tag = matchTU.group();
+
+			hrefURL = getHrefURL(tag);
+			title = getTitle(tag);
+			allUrls.add(hrefURL);
+			allTitles.add(title);
+		}
+		subTitlesNUrls.allTitles.addAll(allTitles);
+		subTitlesNUrls.allUrls.addAll(allUrls);
+
+		return subTitlesNUrls;
+	}
+
+	private static String getUrlFromList(String listContent) {
+		String retUrl = "";
+
+		return retUrl;
+	}
+
+	@SuppressWarnings("deprecation")
+	private static List<String> makeValidURLs(List<String> allUrls,
+			String webUrl) {
 		List<String> validURLs = new ArrayList<String>();
-		for(int i = 0; i < allUrls.size(); i++){
+		for (int i = 0; i < allUrls.size(); i++) {
 			String url = allUrls.get(i);
 			String validUrl = "";
-			if(isValidURL(url)){
+			if (isValidURL(url)) {
 				validUrl = url;
 			} else {
 				validUrl = webUrl + url;
 			}
+			validUrl = URLDecoder.decode(validUrl);
 			validURLs.add(validUrl);
 		}
 		return validURLs;
@@ -104,12 +235,12 @@ public class URLFetcher {
 		List<String> allTitles = new ArrayList<String>();
 		List<String> allUrls = new ArrayList<String>();
 		ListOfTitlesUrls subTitlesNUrls = new ListOfTitlesUrls();
-		
+
 		Pattern pCategories = Pattern.compile("<a\\s.*href=\".*\".*</a>");
 		Matcher mCategories = pCategories.matcher(subTitlesContent);
 		String tag = "";
 		String hrefURL, title;
-		
+
 		while (mCategories.find()) {
 			tag = mCategories.group();
 			hrefURL = getHrefURL(tag);
@@ -147,6 +278,7 @@ public class URLFetcher {
 		return divSplits[0];
 	}
 
+	@SuppressWarnings("unused")
 	private static boolean isValidURL(String strUrl) {
 		URL validURL;
 		boolean isValid = false;

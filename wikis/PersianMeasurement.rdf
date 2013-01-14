@@ -1,0 +1,42 @@
+<http://fa.wikipedia.org/wiki/اندازه‌گیری> <http://www.w3.org/2000/01/rdf-schema#label> "اندازه‌گیری"@fa .
+<http://fa.wikipedia.org/wiki/آزمون_الکترومغناطیس> <http://www.w3.org/2000/01/rdf-schema#label> "آزمون الکترومغناطیس"@fa .
+<http://fa.wikipedia.org/wiki/آزمون_انتشار_امواج_صوتی> <http://www.w3.org/2000/01/rdf-schema#label> "آزمون انتشار امواج صوتی"@fa .
+<http://fa.wikipedia.org/wiki/آزمون_ذرات_مغناطیسی> <http://www.w3.org/2000/01/rdf-schema#label> "آزمون ذرات مغناطیسی"@fa .
+<http://fa.wikipedia.org/wiki/آزمون_رادیوگرافی> <http://www.w3.org/2000/01/rdf-schema#label> "آزمون رادیوگرافی"@fa .
+<http://fa.wikipedia.org/wiki/آزمون_فراصوت> <http://www.w3.org/2000/01/rdf-schema#label> "آزمون فراصوت"@fa .
+<http://fa.wikipedia.org/wiki/آزمون_مایعات_نافذ> <http://www.w3.org/2000/01/rdf-schema#label> "آزمون مایعات نافذ"@fa .
+<http://fa.wikipedia.org/wiki/آزمون_نشتی> <http://www.w3.org/2000/01/rdf-schema#label> "آزمون نشتی"@fa .
+<http://fa.wikipedia.org/wiki/آزمون‌های_غیرمخرب> <http://www.w3.org/2000/01/rdf-schema#label> "آزمون‌های غیرمخرب"@fa .
+<http://fa.wikipedia.org/wiki/بازه_اطمینان> <http://www.w3.org/2000/01/rdf-schema#label> "بازه اطمینان"@fa .
+<http://fa.wikipedia.org/wiki/بخش_در_واحد_سنجش> <http://www.w3.org/2000/01/rdf-schema#label> "بخش در واحد سنجش"@fa .
+<http://fa.wikipedia.org/wiki/تحلیل_ابعادی> <http://www.w3.org/2000/01/rdf-schema#label> "تحلیل ابعادی"@fa .
+<http://fa.wikipedia.org/wiki/تخلخل‌سنجی_مایع> <http://www.w3.org/2000/01/rdf-schema#label> "تخلخل‌سنجی مایع"@fa .
+<http://fa.wikipedia.org/wiki/تداخل‌سنج_سایناک> <http://www.w3.org/2000/01/rdf-schema#label> "تداخل‌سنج سایناک"@fa .
+<http://fa.wikipedia.org/wiki/تداخل‌سنج_فابری-پرو> <http://www.w3.org/2000/01/rdf-schema#label> "تداخل‌سنج فابری-پرو"@fa .
+<http://fa.wikipedia.org/wiki/تداخل‌سنج_ماخ-زندر> <http://www.w3.org/2000/01/rdf-schema#label> "تداخل‌سنج ماخ-زندر"@fa .
+<http://fa.wikipedia.org/wiki/تداخل‌سنج_مایکلسون> <http://www.w3.org/2000/01/rdf-schema#label> "تداخل‌سنج مایکلسون"@fa .
+<http://fa.wikipedia.org/wiki/تداخل‌سنجی> <http://www.w3.org/2000/01/rdf-schema#label> "تداخل‌سنجی"@fa .
+<http://fa.wikipedia.org/wiki/تداخل‌سنجی_رادار_دهانه_ترکیبی> <http://www.w3.org/2000/01/rdf-schema#label> "تداخل‌سنجی رادار دهانه ترکیبی"@fa .
+<http://fa.wikipedia.org/wiki/ترازوی_روبروال> <http://www.w3.org/2000/01/rdf-schema#label> "ترازوی روبروال"@fa .
+<http://fa.wikipedia.org/wiki/ثابت_فیزیکی> <http://www.w3.org/2000/01/rdf-schema#label> "ثابت فیزیکی"@fa .
+<http://fa.wikipedia.org/wiki/حساسیت_(اندازه‌گیری)> <http://www.w3.org/2000/01/rdf-schema#label> "حساسیت (اندازه‌گیری)"@fa .
+<http://fa.wikipedia.org/wiki/خطا> <http://www.w3.org/2000/01/rdf-schema#label> "خطا"@fa .
+<http://fa.wikipedia.org/wiki/دوری‌سنجی> <http://www.w3.org/2000/01/rdf-schema#label> "دوری‌سنجی"@fa .
+<http://fa.wikipedia.org/wiki/سامانه‌های_اندازه‌گیری> <http://www.w3.org/2000/01/rdf-schema#label> "سامانه‌های اندازه‌گیری"@fa .
+<http://fa.wikipedia.org/wiki/سطوح_سنجش> <http://www.w3.org/2000/01/rdf-schema#label> "سطوح سنجش"@fa .
+<http://fa.wikipedia.org/wiki/شرایط_استاندارد_دما_و_فشار> <http://www.w3.org/2000/01/rdf-schema#label> "شرایط استاندارد دما و فشار"@fa .
+<http://fa.wikipedia.org/wiki/ضریب_تبدیل> <http://www.w3.org/2000/01/rdf-schema#label> "ضریب تبدیل"@fa .
+<http://fa.wikipedia.org/wiki/عدم_قطعیت> <http://www.w3.org/2000/01/rdf-schema#label> "عدم قطعیت"@fa .
+<http://fa.wikipedia.org/wiki/فتوگرامتری> <http://www.w3.org/2000/01/rdf-schema#label> "فتوگرامتری"@fa .
+<http://fa.wikipedia.org/wiki/مترولوژی> <http://www.w3.org/2000/01/rdf-schema#label> "مترولوژی"@fa .
+<http://fa.wikipedia.org/wiki/محاسبه_عدم_قطعیت> <http://www.w3.org/2000/01/rdf-schema#label> "محاسبه عدم قطعیت"@fa .
+<http://fa.wikipedia.org/wiki/مرتبه_بزرگی_(طول)> <http://www.w3.org/2000/01/rdf-schema#label> "مرتبه بزرگی (طول)"@fa .
+<http://fa.wikipedia.org/wiki/میکرومتر> <http://www.w3.org/2000/01/rdf-schema#label> "میکرومتر"@fa .
+<http://fa.wikipedia.org/wiki/نسبت_سیگنال_به_نویز> <http://www.w3.org/2000/01/rdf-schema#label> "نسبت سیگنال به نویز"@fa .
+<http://fa.wikipedia.org/wiki/نماد_علمی> <http://www.w3.org/2000/01/rdf-schema#label> "نماد علمی"@fa .
+<http://fa.wikipedia.org/wiki/وضوح_زمانی> <http://www.w3.org/2000/01/rdf-schema#label> "وضوح زمانی"@fa .
+<http://fa.wikipedia.org/wiki/پیشوندهای_دودویی> <http://www.w3.org/2000/01/rdf-schema#label> "پیشوندهای دودویی"@fa .
+<http://fa.wikipedia.org/wiki/ژئودزی> <http://www.w3.org/2000/01/rdf-schema#label> "ژئودزی"@fa .
+<http://fa.wikipedia.org/wiki/کالیبراسیون> <http://www.w3.org/2000/01/rdf-schema#label> "کالیبراسیون"@fa .
+<http://fa.wikipedia.org/wiki/کمیت> <http://www.w3.org/2000/01/rdf-schema#label> "کمیت"@fa .
+<http://fa.wikipedia.org/wiki/یکا> <http://www.w3.org/2000/01/rdf-schema#label> "یکا"@fa .

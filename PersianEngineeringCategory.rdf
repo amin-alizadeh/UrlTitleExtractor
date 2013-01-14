@@ -1,0 +1,31 @@
+<http://fa.wikipedia.org/wiki/مهندسی> <http://www.w3.org/2000/01/rdf-schema#label> "مهندسی"@fa .
+<http://fa.wikipedia.org/wiki/آزمایشگاه_روی_تراشه> <http://www.w3.org/2000/01/rdf-schema#label> "آزمایشگاه روی تراشه"@fa .
+<http://fa.wikipedia.org/wiki/آمار_مهندسی> <http://www.w3.org/2000/01/rdf-schema#label> "آمار مهندسی"@fa .
+<http://fa.wikipedia.org/wiki/استاتیک> <http://www.w3.org/2000/01/rdf-schema#label> "استاتیک"@fa .
+<http://fa.wikipedia.org/wiki/اقتصاد_مهندسی> <http://www.w3.org/2000/01/rdf-schema#label> "اقتصاد مهندسی"@fa .
+<http://fa.wikipedia.org/wiki/ای‌اس‌تی‌ام_بین‌الملل> <http://www.w3.org/2000/01/rdf-schema#label> "ای‌اس‌تی‌ام بین‌الملل"@fa .
+<http://fa.wikipedia.org/wiki/بدیهه‌سازی> <http://www.w3.org/2000/01/rdf-schema#label> "بدیهه‌سازی"@fa .
+<http://fa.wikipedia.org/wiki/بیومیمتیک> <http://www.w3.org/2000/01/rdf-schema#label> "بیومیمتیک"@fa .
+<http://fa.wikipedia.org/wiki/خطای_انسانی> <http://www.w3.org/2000/01/rdf-schema#label> "خطای انسانی"@fa .
+<http://fa.wikipedia.org/wiki/دستگاه_خودکار> <http://www.w3.org/2000/01/rdf-schema#label> "دستگاه خودکار"@fa .
+<http://fa.wikipedia.org/wiki/روش_های_ساخت_ریزساختار_از_پلاستیک> <http://www.w3.org/2000/01/rdf-schema#label> "روش های ساخت ریزساختار از پلاستیک"@fa .
+<http://fa.wikipedia.org/wiki/ساخت_نمونک> <http://www.w3.org/2000/01/rdf-schema#label> "ساخت نمونک"@fa .
+<http://fa.wikipedia.org/wiki/سرمایش_از_کف> <http://www.w3.org/2000/01/rdf-schema#label> "سرمایش از کف"@fa .
+<http://fa.wikipedia.org/wiki/سیستم_سازه‌ای> <http://www.w3.org/2000/01/rdf-schema#label> "سیستم سازه‌ای"@fa .
+<http://fa.wikipedia.org/wiki/الگو:شیوه‌های_برنامه‌نویسی> <http://www.w3.org/2000/01/rdf-schema#label> "الگو:شیوه‌های برنامه‌نویسی"@fa .
+<http://fa.wikipedia.org/wiki/علوم_مهندسی> <http://www.w3.org/2000/01/rdf-schema#label> "علوم مهندسی"@fa .
+<http://fa.wikipedia.org/wiki/فیزیک_کاربردی> <http://www.w3.org/2000/01/rdf-schema#label> "فیزیک کاربردی"@fa .
+<http://fa.wikipedia.org/wiki/لیتوگرافی_به_وسیله_اشعه_ماوراء_بنفش> <http://www.w3.org/2000/01/rdf-schema#label> "لیتوگرافی به وسیله اشعه ماوراء بنفش"@fa .
+<http://fa.wikipedia.org/wiki/مهندس> <http://www.w3.org/2000/01/rdf-schema#label> "مهندس"@fa .
+<http://fa.wikipedia.org/wiki/درگاه:مهندسی> <http://www.w3.org/2000/01/rdf-schema#label> "درگاه:مهندسی"@fa .
+<http://fa.wikipedia.org/wiki/مهندسی_سامانه‌ها> <http://www.w3.org/2000/01/rdf-schema#label> "مهندسی سامانه‌ها"@fa .
+<http://fa.wikipedia.org/wiki/مهندسی_طراحی_و_نقشه‌کشی_صنعتی> <http://www.w3.org/2000/01/rdf-schema#label> "مهندسی طراحی و نقشه‌کشی صنعتی"@fa .
+<http://fa.wikipedia.org/wiki/مهندسی_عمران> <http://www.w3.org/2000/01/rdf-schema#label> "مهندسی عمران"@fa .
+<http://fa.wikipedia.org/wiki/مهندسی_فضای_سبز> <http://www.w3.org/2000/01/rdf-schema#label> "مهندسی فضای سبز"@fa .
+<http://fa.wikipedia.org/wiki/نانو_الکترونیک> <http://www.w3.org/2000/01/rdf-schema#label> "نانو الکترونیک"@fa .
+<http://fa.wikipedia.org/wiki/نانوحسگر> <http://www.w3.org/2000/01/rdf-schema#label> "نانوحسگر"@fa .
+<http://fa.wikipedia.org/wiki/نقشه_(فنی)> <http://www.w3.org/2000/01/rdf-schema#label> "نقشه (فنی)"@fa .
+<http://fa.wikipedia.org/wiki/نماد_مهندسی> <http://www.w3.org/2000/01/rdf-schema#label> "نماد مهندسی"@fa .
+<http://fa.wikipedia.org/wiki/نگهداری_و_تعمیرات_پیشگویانه> <http://www.w3.org/2000/01/rdf-schema#label> "نگهداری و تعمیرات پیشگویانه"@fa .
+<http://fa.wikipedia.org/wiki/پیمایش_گرمایی_الکتریکی> <http://www.w3.org/2000/01/rdf-schema#label> "پیمایش گرمایی الکتریکی"@fa .
+<http://fa.wikipedia.org/wiki/کنترل‌گر> <http://www.w3.org/2000/01/rdf-schema#label> "کنترل‌گر"@fa .
